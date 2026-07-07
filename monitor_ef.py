@@ -317,75 +317,104 @@ def extraer_fecha_citacion(texto):
     return None
 
 
-# Palabras que nunca forman parte de un nombre de persona en estos documentos
-_EXCLUIDAS = {
-    "TRIBUNAL","EDUCACION","FISICA","CARM","CONVOCATORIA","OPOSICION","PAGINA",
-    "FECHA","HORA","LUGAR","DIRECCION","MURCIA","REGION","CONSEJERIA","CULTURA",
-    "DEPORTES","SECRETARIA","ASPIRANTE","APELLIDOS","NOMBRE","DNI","NIF","ORDEN",
-    "NUMERO","LISTA","RELACION","DEFINITIVA","PROVISIONAL","PUNTUACION","NOTA",
-    "ACTUACION","EJERCICIO","PRUEBA","JUNTA","CENTRO","INSTITUTO","COLEGIO",
-    "ESCUELA","AVENIDA","CALLE","PLAZA","BAREMO","TOTAL","MEDIA","RESULTADO",
+# Palabras de función y términos administrativos que NUNCA son parte de un nombre
+_NO_NOMBRE = {
+    # Artículos
+    "LA","EL","LOS","LAS","UN","UNA","UNOS","UNAS","DEL","AL",
+    # Preposiciones / conjunciones
+    "EN","CON","POR","PARA","SIN","SOBRE","BAJO","ENTRE","HASTA","DESDE",
+    "SU","SUS","MI","TU","SE","LE","O","U","E","NI","PERO","SINO","MAS","Y",
+    "DE","A",  # cortas — solo se comprueban como palabras completas
+    # Términos de documentos administrativos de oposiciones
+    "CASO","PROGRAMA","PROGRAMACION","DIDACTICA","FICHA","BAREMACION",
+    "DOCUMENTACION","ACREDITATIVA","ACREDITATIVO","INTERVENCION","PROCESO",
+    "SELECTIVO","INGRESO","ADQUISICION","NUEVAS","NUEVOS","PLAZAS","PLAZA",
+    "CONVOCATORIA","CUERPO","ESPECIALIDAD","MAESTROS","EDUCACION","FISICA",
+    "OFICIAL","DEBIDAMENTE","COMPULSADA","INSTANCIA","SOLICITUD","IMPRESO",
+    "TITULO","CERTIFICADO","COPIA","ORIGINAL","SELLADA","FIRMADA",
+    # Admin / lugar
+    "TRIBUNAL","CARM","OPOSICION","PAGINA","FECHA","HORA","LUGAR","DIRECCION",
+    "MURCIA","REGION","CONSEJERIA","CULTURA","DEPORTES","SECRETARIA",
+    "ASPIRANTE","APELLIDOS","NOMBRE","DNI","NIF","ORDEN","NUMERO","LISTA",
+    "RELACION","DEFINITIVA","PROVISIONAL","PUNTUACION","NOTA","ACTUACION",
+    "EJERCICIO","PRUEBA","JUNTA","CENTRO","INSTITUTO","COLEGIO","ESCUELA",
+    "AVENIDA","CALLE","BAREMO","TOTAL","MEDIA","RESULTADO","TURNO","LIBRE",
 }
+
+
+def _es_nombre_valido(texto):
+    """
+    Devuelve True solo si el texto parece un nombre de persona.
+    Reglas:
+      - 2 a 5 palabras
+      - Ninguna palabra pertenece a _NO_NOMBRE
+      - Si tiene coma: la parte de apellidos ≥4 chars, la de nombre ≥3 chars
+      - Sin coma: todas las palabras empiezan en mayúscula/solo letras
+    """
+    palabras = re.findall(r"[A-ZÁÉÍÓÚÜÑ']+", normalizar(texto))
+    if len(palabras) < 2 or len(palabras) > 5:
+        return False
+    for p in palabras:
+        if p in _NO_NOMBRE:
+            return False
+    if "," in texto:
+        partes = [p.strip() for p in texto.split(",", 1)]
+        if len(partes[0]) < 4 or len(partes[1]) < 3:
+            return False
+    return True
 
 
 def parse_nombres(texto):
     """
-    Extrae nombres del texto del PDF.
-    Estrategia: requiere la coma "APELLIDOS, NOMBRE" como condición casi obligatoria.
-    Esto elimina prácticamente todos los falsos positivos.
+    Extrae nombres del texto del PDF de una citación.
+
+    Soporta tres formatos habituales en documentos CARM:
+      A) "1   GARCÍA LÓPEZ, MARÍA JESÚS   09:00 h"  (número + apellidos, nombre + hora)
+      B) "1.- GARCÍA LÓPEZ, MARÍA"                  (número + apellidos, nombre)
+      C) "1   PABLO ALCARAZ BAEZA"                  (número + nombre sin coma)
+
+    Rechaza cualquier línea con palabras de función o términos administrativos.
     """
     lineas = [l.strip() for l in texto.splitlines() if l.strip()]
     personas = []
 
-    # ── Patrón 1 (preferido): número + APELLIDOS, NOMBRE [+ hora] ──────────────
-    # "1   GARCÍA LÓPEZ, MARÍA JESÚS   09:00 h"
-    # "1.- MARTÍNEZ PÉREZ, JUAN"
-    p1 = re.compile(
-        r'^(\d{1,3})(?:[.\-\)]+\s*|\s+)'             # número + separador o espacios
-        r'([A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ\s\-\']{1,35}'    # apellidos
-        r',\s*[A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ\s\-\']{1,30})'  # , nombre
-        r'(?:\s{2,}(\d{1,2}[:.h]\d{0,2}\s*(?:h(?:oras?)?)?))?'  # hora (≥2 espacios de separación)
+    # ── Patrón principal: número de orden + nombre (con o sin coma) ────────────
+    p_num = re.compile(
+        r'^(\d{1,3})(?:[.\-\)]+\s*|\s+)'          # número + separador (. - ) o espacios)
+        r'([A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ\s\-\',]{4,55}?)'  # nombre/apellidos
+        r'(?:\s{2,}(\d{1,2}[:.h]\d{2}\s*(?:h(?:oras?)?)?))?'  # hora opcional (≥2 espacios)
         r'\s*$',
         re.IGNORECASE
     )
 
     for linea in lineas:
-        m = p1.match(linea)
-        if m:
-            nombre = _limpiar(m.group(2))
-            if nombre and _valido(nombre):
-                personas.append({
-                    "orden": m.group(1),
-                    "nombre": nombre,
-                    "hora":   _hora(m.group(3)),
-                })
+        m = p_num.match(linea)
+        if not m:
+            continue
+        candidato = _limpiar(m.group(2))
+        if _es_nombre_valido(candidato):
+            personas.append({
+                "orden":  m.group(1),
+                "nombre": candidato,
+                "hora":   _hora(m.group(3)),
+            })
 
     if personas:
         return personas
 
-    # ── Patrón 2 (fallback): solo APELLIDOS, NOMBRE sin número ─────────────────
-    # "GARCÍA LÓPEZ, MARÍA JESÚS"
-    p2 = re.compile(
-        r'^([A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ\s\-\']{1,35}'
-        r',\s*[A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ\s\-\']{1,30})$',
-        re.IGNORECASE
-    )
+    # ── Fallback: nombres sin número de orden ──────────────────────────────────
+    # Solo acepta líneas de letras puras (sin dígitos ni caracteres raros)
+    p_sinnum = re.compile(r"^[A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ\s\-\',]{4,55}$", re.IGNORECASE)
     orden = 1
     for linea in lineas:
-        # Rechazar líneas con palabras de exclusión
-        ln = normalizar(linea)
-        if any(ex in ln for ex in _EXCLUIDAS):
+        if re.search(r'\d', linea):        # descarta líneas con números
             continue
-        # Rechazar líneas con dígitos (fechas, números de página, DNI…)
-        if re.search(r'\d', linea):
+        if not p_sinnum.match(linea):
             continue
-        m = p2.match(linea)
-        if m:
-            nombre = _limpiar(m.group(1))
-            if nombre and _valido(nombre):
-                personas.append({"orden": str(orden), "nombre": nombre, "hora": ""})
-                orden += 1
-
+        candidato = _limpiar(linea)
+        if _es_nombre_valido(candidato):
+            personas.append({"orden": str(orden), "nombre": candidato, "hora": ""})
+            orden += 1
     return personas
 
 
@@ -397,23 +426,6 @@ def _hora(s):
         return ""
     m = re.search(r'(\d{1,2})[:.h](\d{2})', s.strip())
     return f"{m.group(1).zfill(2)}:{m.group(2)}" if m else ""
-
-def _valido(nombre):
-    """Comprueba que el string con coma tiene partes suficientemente largas."""
-    if "," not in nombre:
-        return False
-    partes = [p.strip() for p in nombre.split(",")]
-    if len(partes) < 2:
-        return False
-    # Apellidos: al menos 4 letras; Nombre: al menos 3 letras
-    if len(partes[0]) < 4 or len(partes[1]) < 3:
-        return False
-    # No debe contener palabras excluidas sueltas
-    n = normalizar(nombre)
-    for ex in _EXCLUIDAS:
-        if ex in n.split():
-            return False
-    return True
 
 
 # ─── Barrido ───────────────────────────────────────────────────────────────────
@@ -509,55 +521,55 @@ def generate_dashboard(known):
     n_cit = sum(1 for p in pubs if p["tipo"] == "citacion")
     n_cal = len(pubs) - n_cit
 
-    # ── Sección 1: Feed de novedades (todas las publicaciones, más recientes primero) ──
-    feed_rows = ""
-    for p in pubs[:100]:
-        badge = ('<span class="badge cit">Citación</span>'
-                 if p["tipo"] == "citacion"
-                 else '<span class="badge cal">Calificación</span>')
-        fecha = p.get("timestamp","")[:10]
-        hora  = p.get("timestamp","")[11:16]
-        feed_rows += f"""
-        <tr>
-          <td>{p['tribunal']}</td>
-          <td>{badge}</td>
-          <td><a href="{p['url']}" target="_blank">{p['text'][:70]}</a></td>
-          <td style="white-space:nowrap">{fmt_fecha(fecha)}<br>
-              <small style="color:var(--text-muted)">{hora}</small></td>
-        </tr>"""
-
-    # ── Sección 2: Personas citadas, agrupadas por DÍA DE ACTUACIÓN ──────────
-    # Agrupar: fecha_citacion → tribunal → lista de personas
-    citaciones = [p for p in pubs if p["tipo"] == "citacion" and p.get("personas")]
-
-    por_dia_trib = defaultdict(lambda: defaultdict(list))
-    for p in citaciones:
-        fecha = p.get("fecha_citacion") or p.get("timestamp","")[:10]
-        por_dia_trib[fecha][p["tribunal"]].extend(p["personas"])
+    # ── Citaciones: agrupar por DÍA DE ACTUACIÓN → tribunal ──────────────────
+    # por_dia_trib[fecha][trib] = {"docs": [...], "personas": [...]}
+    por_dia_trib = defaultdict(lambda: defaultdict(lambda: {"docs": [], "personas": []}))
+    for p in pubs:
+        if p["tipo"] == "citacion":
+            fecha = p.get("fecha_citacion") or p.get("timestamp","")[:10]
+            trib  = p["tribunal"]
+            por_dia_trib[fecha][trib]["docs"].append(p)
+            por_dia_trib[fecha][trib]["personas"].extend(p.get("personas", []))
 
     bloques_dias = ""
     for fecha in sorted(por_dia_trib.keys()):
         fecha_fmt  = fmt_fecha(fecha)
         dia_nombre = _nombre_dia(fecha)
         por_trib   = por_dia_trib[fecha]
-        total_dia  = sum(len(v) for v in por_trib.values())
+        total_dia  = sum(len(v["personas"]) for v in por_trib.values())
 
         tablas_trib = ""
         for trib in sorted(por_trib.keys(), key=lambda x: int(re.sub(r'\D','',x) or 0)):
-            personas   = por_trib[trib]
-            hay_horas  = any(p.get("hora") for p in personas)
-            col_hora   = "<th>Hora</th>" if hay_horas else ""
-            filas      = ""
-            for p in personas:
-                td_hora = f"<td class='hora'>{p.get('hora','')}</td>" if hay_horas else ""
-                filas += f"<tr><td class='ord'>{p.get('orden','')}</td><td>{p['nombre']}</td>{td_hora}</tr>"
+            entry    = por_trib[trib]
+            docs     = entry["docs"]
+            personas = entry["personas"]
+
+            # Enlace(s) al documento
+            doc_links = "".join(
+                f'<a href="{d["url"]}" target="_blank" class="doc-link">📄 {d["text"][:55]}</a>'
+                for d in docs
+            )
+
+            # Tabla de personas
+            hay_horas = any(pe.get("hora") for pe in personas)
+            col_hora  = "<th>Hora</th>" if hay_horas else ""
+            filas     = "".join(
+                f"<tr><td class='ord'>{pe.get('orden','')}</td>"
+                f"<td>{pe['nombre']}</td>"
+                f"{'<td class=hora>' + pe.get('hora','') + '</td>' if hay_horas else ''}</tr>"
+                for pe in personas
+            )
+            tabla = (f"<table class='pers-table'>"
+                     f"<thead><tr><th style='width:34px'>Nº</th><th>Nombre</th>{col_hora}</tr></thead>"
+                     f"<tbody>{filas}</tbody></table>") if personas else \
+                    "<p class='empty' style='font-size:12px'>Extrayendo nombres…</p>"
+
+            cnt = f"{len(personas)} pers." if personas else "sin nombres"
             tablas_trib += f"""
             <div class="trib-block">
-              <div class="trib-tag">{trib} <span class="cnt">{len(personas)} pers.</span></div>
-              <table class="pers-table">
-                <thead><tr><th style="width:34px">Nº</th><th>Nombre</th>{col_hora}</tr></thead>
-                <tbody>{filas}</tbody>
-              </table>
+              <div class="trib-tag">{trib} <span class="cnt">{cnt}</span></div>
+              <div class="doc-links">{doc_links}</div>
+              {tabla}
             </div>"""
 
         bloques_dias += f"""
@@ -569,24 +581,49 @@ def generate_dashboard(known):
           <div class="trib-grid">{tablas_trib}</div>
         </div>"""
 
-    sin_cit = ""
-    if not citaciones:
-        hay_cit = any(p["tipo"] == "citacion" for p in pubs)
-        sin_cit = ('<p class="empty">Extrayendo nombres del PDF en el próximo barrido…</p>'
-                   if hay_cit else '<p class="empty">Sin citaciones publicadas todavía.</p>')
+    if not bloques_dias:
+        bloques_dias = '<p class="empty">Sin citaciones publicadas todavía.</p>'
 
-    # ── Sección 3: resumen por tribunal ──────────────────────────────────────
+    # ── Calificaciones ────────────────────────────────────────────────────────
+    cals = [p for p in pubs if p["tipo"] == "calificacion"]
+    cal_por_trib = defaultdict(list)
+    for p in cals:
+        cal_por_trib[p["tribunal"]].append(p)
+
+    cal_rows = ""
+    for t in sorted(cal_por_trib.keys(), key=lambda x: int(re.sub(r'\D','',x) or 0)):
+        for d in cal_por_trib[t]:
+            pub_date = d.get("timestamp","")[:10]
+            cal_rows += (f"<tr><td><strong>{t}</strong></td>"
+                         f"<td><a href='{d['url']}' target='_blank' class='cal-link'>"
+                         f"📋 {d['text'][:65]}</a></td>"
+                         f"<td style='white-space:nowrap;color:var(--muted);font-size:12px'>"
+                         f"{fmt_fecha(pub_date)}</td></tr>")
+
+    seccion_cal = ""
+    if cals:
+        seccion_cal = f"""
+  <div class="card">
+    <h2>📋 Calificaciones publicadas</h2>
+    <table>
+      <thead><tr>
+        <th style="width:80px">Tribunal</th>
+        <th>Documento</th>
+        <th style="width:90px">Publicado</th>
+      </tr></thead>
+      <tbody>{cal_rows}</tbody>
+    </table>
+  </div>"""
+
+    # ── Resumen por tribunal ──────────────────────────────────────────────────
     trib_rows = ""
     for t in tribs:
         tp = [p for p in pubs if p["tribunal"] == t]
         nc = sum(1 for p in tp if p["tipo"] == "citacion")
         nk = len(tp) - nc
-        trib_rows += f"""
-        <tr>
-          <td><strong>{t}</strong></td>
-          <td class="{'ok' if nc else 'empty'}">{nc or '—'}</td>
-          <td class="{'ok' if nk else 'empty'}">{nk or '—'}</td>
-        </tr>"""
+        trib_rows += (f"<tr><td><strong>{t}</strong></td>"
+                      f"<td class=\"{'ok' if nc else 'empty'}\">{nc or '—'}</td>"
+                      f"<td class=\"{'ok' if nk else 'empty'}\">{nk or '—'}</td></tr>")
 
     last_scan = datetime.now().strftime("%d/%m/%Y %H:%M")
 
@@ -601,7 +638,6 @@ def generate_dashboard(known):
 :root {{
   --bg:#f0f2f5; --card:#fff; --border:#e5e7eb; --primary:#1e3a5f;
   --accent:#2563eb; --text:#333; --muted:#9ca3af; --ok:#166534;
-  --text-muted:#9ca3af;
 }}
 * {{ box-sizing:border-box; margin:0; padding:0 }}
 body {{ font-family:'Segoe UI',Arial,sans-serif; background:var(--bg); color:var(--text); font-size:14px }}
@@ -634,10 +670,6 @@ tr:hover td {{ background:#fafbff }}
 td.ok    {{ color:var(--ok); font-weight:600 }}
 td.empty {{ color:var(--muted) }}
 
-.badge {{ display:inline-block; border-radius:12px; padding:2px 8px; font-size:11px; font-weight:600 }}
-.badge.cit {{ background:#dbeafe; color:#1d4ed8 }}
-.badge.cal {{ background:#dcfce7; color:var(--ok) }}
-
 /* Bloques por día */
 .dia-block {{ margin-bottom:20px }}
 .dia-header {{
@@ -646,14 +678,27 @@ td.empty {{ color:var(--muted) }}
 }}
 .dia-fecha {{ font-size:14px; font-weight:700 }}
 .dia-total {{ font-size:12px; opacity:.75 }}
-.trib-grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1px;
-              background:var(--border); border:1px solid var(--border); border-top:none;
-              border-radius:0 0 8px 8px; overflow:hidden }}
+.trib-grid {{
+  display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1px;
+  background:var(--border); border:1px solid var(--border); border-top:none;
+  border-radius:0 0 8px 8px; overflow:hidden;
+}}
 .trib-block {{ background:var(--card); padding:12px }}
 .trib-tag {{ font-size:12px; font-weight:700; color:var(--accent);
-             margin-bottom:8px; display:flex; align-items:center; gap:6px }}
+             margin-bottom:6px; display:flex; align-items:center; gap:6px }}
 .trib-tag .cnt {{ font-weight:400; color:var(--muted) }}
-.pers-table {{ font-size:12px }}
+
+/* Enlace(s) de documento dentro del bloque de tribunal */
+.doc-links {{ margin-bottom:8px }}
+.doc-link {{
+  display:block; font-size:12px; padding:4px 8px; margin-bottom:4px;
+  background:#eff6ff; border:1px solid #bfdbfe; border-radius:6px;
+  color:#1d4ed8; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}}
+.doc-link:hover {{ background:#dbeafe }}
+.cal-link {{ color:#166534 }}
+
+.pers-table {{ font-size:12px; width:100% }}
 .pers-table th {{ font-size:11px; padding:5px 8px; background:#f8fafc }}
 .pers-table td {{ padding:5px 8px; border-bottom:1px solid #f3f4f6 }}
 .pers-table tr:last-child td {{ border-bottom:none }}
@@ -680,24 +725,10 @@ td.hora {{ color:#374151; white-space:nowrap; font-size:12px }}
   </div>
 
   <div class="card">
-    <h2>📢 Últimas publicaciones</h2>
-    <table>
-      <thead><tr>
-        <th style="width:70px">Tribunal</th>
-        <th style="width:110px">Tipo</th>
-        <th>Documento</th>
-        <th style="width:100px">Publicado</th>
-      </tr></thead>
-      <tbody>{feed_rows}</tbody>
-    </table>
-  </div>
-
-  <div class="card">
-    <h2>👥 Personas citadas por día de actuación</h2>
-    {sin_cit}
+    <h2>🔔 Citaciones — personas por día de actuación</h2>
     {bloques_dias}
   </div>
-
+{seccion_cal}
   <div class="card">
     <h2>📊 Estado por tribunal</h2>
     <table>
