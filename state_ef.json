@@ -7,14 +7,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF01_MODELO_3P_07071753.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:36.587055",
+      "timestamp": "2026-07-07T18:10:24.122012",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "f81e2dabacd0d5f6e15b278dc536276f": {
       "especialidad": "EDUCACION FISICA",
@@ -23,14 +24,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF01_MODELO_3P_07061502.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:36.587090",
+      "timestamp": "2026-07-07T18:10:24.122046",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "8ee7f214bd03551807661d481b6a7530": {
       "especialidad": "EDUCACION FISICA",
@@ -39,8 +41,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031606.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:36.587127",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.122077",
+      "personas": [],
+      "fecha_citacion": null
     },
     "5a87982621cd406e89e107a7d0a1712f": {
       "especialidad": "EDUCACION FISICA",
@@ -49,8 +52,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF01_puntuaciones_definitivas_superado_prueba_unica_07031605.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:36.587164",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.122112",
+      "personas": [],
+      "fecha_citacion": null
     },
     "3f9ceb0cb96ce9c0a43e58410eb70852": {
       "especialidad": "EDUCACION FISICA",
@@ -59,7 +63,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF01_MODELO_3Ñ_07021850.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:36.587200",
+      "timestamp": "2026-07-07T18:10:24.122148",
       "personas": [
         {
           "orden": "1",
@@ -76,7 +80,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "38d981bb1b5915f3bf93842b7749ee0d": {
       "especialidad": "EDUCACION FISICA",
@@ -85,8 +90,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF01_MODELO_3L_07021849.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:36.587231",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.122181",
+      "personas": [],
+      "fecha_citacion": null
     },
     "e33fca71b7ab434590760a3313e8b663": {
       "especialidad": "EDUCACION FISICA",
@@ -95,8 +101,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF01_MODELO_3F_07021316.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:36.587277",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.122223",
+      "personas": [],
+      "fecha_citacion": null
     },
     "8a9e75cdd6c586bc19ad80614ded08cd": {
       "especialidad": "EDUCACION FISICA",
@@ -105,8 +112,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF01_puntuaciones_provisionales_superado_prueba_unica_07021314.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:36.587307",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.122253",
+      "personas": [],
+      "fecha_citacion": null
     },
     "0de874656a6f5e25ef042ed1a8174c4a": {
       "especialidad": "EDUCACION FISICA",
@@ -115,8 +123,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF01_puntuaciones_provisionales_prueba_unica_07021313.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:36.587337",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.122281",
+      "personas": [],
+      "fecha_citacion": null
     },
     "623970b8e4117a47a4d04a526768125f": {
       "especialidad": "EDUCACION FISICA",
@@ -125,8 +134,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF01_MODELO_3D_07011327.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:36.587365",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.122308",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "7a1275fd5b137e2831e017e7e2de52c9": {
       "especialidad": "EDUCACION FISICA",
@@ -135,7 +145,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_MODELO_3P_07071608.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:37.026283",
+      "timestamp": "2026-07-07T18:10:24.371752",
       "personas": [
         {
           "orden": "1",
@@ -167,7 +177,8 @@
           "nombre": "HELENA ALEMÁN GÓMEZ",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "f7e6d8d4c135fdd2c7e928f5498cf580": {
       "especialidad": "EDUCACION FISICA",
@@ -176,7 +187,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_MODELO_3P_07061444.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:37.026315",
+      "timestamp": "2026-07-07T18:10:24.371784",
       "personas": [
         {
           "orden": "1",
@@ -198,7 +209,8 @@
           "nombre": "ALBALADEJO MORENO, OLGA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "05b68949bacffd386ffc751859c9904d": {
       "especialidad": "EDUCACION FISICA",
@@ -207,8 +219,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_puntuaciones_definitivas_superado_prueba_unica_07060851.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.026346",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.371814",
+      "personas": [],
+      "fecha_citacion": null
     },
     "daef4f0dcfa364ee1962b1331ebd7176": {
       "especialidad": "EDUCACION FISICA",
@@ -217,8 +230,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_puntuaciones_definitivas_superado_prueba_unica_07060850.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.026376",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.371842",
+      "personas": [],
+      "fecha_citacion": null
     },
     "a5e21e0cdf1229469989d299cfd46744": {
       "especialidad": "EDUCACION FISICA",
@@ -227,8 +241,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_MODELO_3L_07031614.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:37.026406",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.371872",
+      "personas": [],
+      "fecha_citacion": null
     },
     "bb7a473343ac82158dcde8e9ba974a11": {
       "especialidad": "EDUCACION FISICA",
@@ -237,8 +252,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_puntuaciones_definitivas_superado_prueba_unica_07031313.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.026435",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.371900",
+      "personas": [],
+      "fecha_citacion": null
     },
     "e0370f6cf8ff978f2b69375e23691d16": {
       "especialidad": "EDUCACION FISICA",
@@ -247,7 +263,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_MODELO_3Ñ_07022053.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:37.026468",
+      "timestamp": "2026-07-07T18:10:24.371933",
       "personas": [
         {
           "orden": "1",
@@ -264,7 +280,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "bd3c0f7a16205acf05cefd13e3c5372d": {
       "especialidad": "EDUCACION FISICA",
@@ -273,8 +290,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_MODELO_3F_07021313.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.026512",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.371976",
+      "personas": [],
+      "fecha_citacion": null
     },
     "154a0328c5a21ef15e2755f578872002": {
       "especialidad": "EDUCACION FISICA",
@@ -283,8 +301,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_puntuaciones_provisionales_superado_prueba_unica_07021312.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.026541",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.372005",
+      "personas": [],
+      "fecha_citacion": null
     },
     "c0104ef0ef8ead836c5be22fde1e890c": {
       "especialidad": "EDUCACION FISICA",
@@ -293,8 +312,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_puntuaciones_provisionales_prueba_unica_07021311.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.026570",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.372032",
+      "personas": [],
+      "fecha_citacion": null
     },
     "5b0743663fa8d4d93325f96efd5ff652": {
       "especialidad": "EDUCACION FISICA",
@@ -303,8 +323,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF02_MODELO_3D_07011042.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:37.026598",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.372060",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "8872b6eefd8c4c029c44ed00cc2c9f8e": {
       "especialidad": "EDUCACION FISICA",
@@ -313,14 +334,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF03_MODELO_3P_07071536.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:37.981721",
+      "timestamp": "2026-07-07T18:10:24.915830",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "f46b51e561af3878774752e8ce98a252": {
       "especialidad": "EDUCACION FISICA",
@@ -329,14 +351,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF03_MODELO_3P_07061608.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:37.981754",
+      "timestamp": "2026-07-07T18:10:24.915862",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "156984bc89befbd31e058b0030316228": {
       "especialidad": "EDUCACION FISICA",
@@ -345,8 +368,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031255.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.981785",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.915893",
+      "personas": [],
+      "fecha_citacion": null
     },
     "e9b62e96c4807f89320b695f6372aa21": {
       "especialidad": "EDUCACION FISICA",
@@ -355,8 +379,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF03_puntuaciones_definitivas_superado_prueba_unica_07031252.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.981814",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.915921",
+      "personas": [],
+      "fecha_citacion": null
     },
     "8e5bf170c9ff4e2be301c139648fed53": {
       "especialidad": "EDUCACION FISICA",
@@ -365,8 +390,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF03_MODELO_3L_07021837.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:37.981844",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.915951",
+      "personas": [],
+      "fecha_citacion": null
     },
     "a2a12a25beb72ff3fc4f1f23adf6ddb7": {
       "especialidad": "EDUCACION FISICA",
@@ -375,7 +401,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF03_MODELO_3Ñ_07021836.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:37.981877",
+      "timestamp": "2026-07-07T18:10:24.915983",
       "personas": [
         {
           "orden": "1",
@@ -392,7 +418,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "63c3ee79e6e7f81e517e71813872326c": {
       "especialidad": "EDUCACION FISICA",
@@ -401,8 +428,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF03_MODELO_3F_07021317.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.981920",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.916026",
+      "personas": [],
+      "fecha_citacion": null
     },
     "34c5441fbc5f5a2dffcc0c70eba96afe": {
       "especialidad": "EDUCACION FISICA",
@@ -411,8 +439,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF03_puntuaciones_provisionales_superado_prueba_unica_07021315.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.981949",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.916056",
+      "personas": [],
+      "fecha_citacion": null
     },
     "ae18ed0ce7d74b24fa8c74bce2ad4320": {
       "especialidad": "EDUCACION FISICA",
@@ -421,8 +450,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF03_puntuaciones_provisionales_prueba_unica_07021315.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:37.981978",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.916084",
+      "personas": [],
+      "fecha_citacion": null
     },
     "2cabe95befee76f6773a3be23b32c68f": {
       "especialidad": "EDUCACION FISICA",
@@ -431,8 +461,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF03_MODELO_3D_07011605.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:37.982023",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:24.916111",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "a0aae8e592f7ff1f620fa2ed4741b399": {
       "especialidad": "EDUCACION FISICA",
@@ -441,14 +472,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF04_MODELO_3P_07071501.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:38.263679",
+      "timestamp": "2026-07-07T18:10:25.152420",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "96007965d9773b218c165ec5f054fbd9": {
       "especialidad": "EDUCACION FISICA",
@@ -457,14 +489,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF04_MODELO_3P_07061515.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:38.263713",
+      "timestamp": "2026-07-07T18:10:25.152464",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "bb97db999b570363a870054d46b5b39b": {
       "especialidad": "EDUCACION FISICA",
@@ -473,8 +506,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031325.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.263746",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.152494",
+      "personas": [],
+      "fecha_citacion": null
     },
     "956bafde623c2d57b402ae6665118fb9": {
       "especialidad": "EDUCACION FISICA",
@@ -483,8 +517,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF04_puntuaciones_definitivas_superado_prueba_unica_07031324.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.263775",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.152523",
+      "personas": [],
+      "fecha_citacion": null
     },
     "155632f31384026a036acab94d42837f": {
       "especialidad": "EDUCACION FISICA",
@@ -493,8 +528,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF04_puntuaciones_provisionales_superado_prueba_unica_07021314.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.263805",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.152551",
+      "personas": [],
+      "fecha_citacion": null
     },
     "1bea79d68797c6e342a9214e91e3b8b2": {
       "especialidad": "EDUCACION FISICA",
@@ -503,8 +539,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF04_puntuaciones_provisionales_prueba_unica_07021313.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.263834",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.152580",
+      "personas": [],
+      "fecha_citacion": null
     },
     "2ae1726ab7991d700587b37965f6f230": {
       "especialidad": "EDUCACION FISICA",
@@ -513,8 +550,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF04_MODELO_3L_07021311.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:38.263864",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.152609",
+      "personas": [],
+      "fecha_citacion": null
     },
     "775f12008f0b2cdb8d698bdeed871916": {
       "especialidad": "EDUCACION FISICA",
@@ -523,7 +561,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF04_MODELO_3Ñ_07021306.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:38.263896",
+      "timestamp": "2026-07-07T18:10:25.152641",
       "personas": [
         {
           "orden": "1",
@@ -540,7 +578,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "111602acecf103e6e3897729d816fa1b": {
       "especialidad": "EDUCACION FISICA",
@@ -549,8 +588,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF04_MODELO_3F_07021304.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.263940",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.152684",
+      "personas": [],
+      "fecha_citacion": null
     },
     "cd1e6e95fd81b4f9f628e0d18927116d": {
       "especialidad": "EDUCACION FISICA",
@@ -559,8 +599,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF04_MODELO_3D_07010934.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:38.263968",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.152711",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "17f5edcd4cf609ff19766399028ed15d": {
       "especialidad": "EDUCACION FISICA",
@@ -569,7 +610,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_MODELO_3P_07071502.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:38.684469",
+      "timestamp": "2026-07-07T18:10:25.377273",
       "personas": [
         {
           "orden": "1",
@@ -596,7 +637,8 @@
           "nombre": "FERNANDEZ MOGA, SERGIO",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "78b68b3470306858ea5ad9845df82762": {
       "especialidad": "EDUCACION FISICA",
@@ -605,8 +647,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_puntuaciones_definitivas_superado_prueba_unica_07062107.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.684504",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.377306",
+      "personas": [],
+      "fecha_citacion": null
     },
     "1e26069fa1a38b9ba01c5526c48e1222": {
       "especialidad": "EDUCACION FISICA",
@@ -615,7 +658,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_MODELO_3P_07061303.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:38.684534",
+      "timestamp": "2026-07-07T18:10:25.377336",
       "personas": [
         {
           "orden": "1",
@@ -632,7 +675,8 @@
           "nombre": "EXPOSITO GARCIA, ALBERTO ANTONIO",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "e181e6e9ba8a4b45e7a8f7cc4371470e": {
       "especialidad": "EDUCACION FISICA",
@@ -641,8 +685,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_MODELO_3F_07031630.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.684580",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.377378",
+      "personas": [],
+      "fecha_citacion": null
     },
     "6ea0c9b6aae4db6fd79224bffa5bf717": {
       "especialidad": "EDUCACION FISICA",
@@ -651,8 +696,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_puntuaciones_definitivas_superado_prueba_unica_07031229.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.684610",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.377406",
+      "personas": [],
+      "fecha_citacion": null
     },
     "bef0dec81c6d7332bc236d1a8f6fb808": {
       "especialidad": "EDUCACION FISICA",
@@ -661,8 +707,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_MODELO_3L_07021927.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:38.684640",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.377447",
+      "personas": [],
+      "fecha_citacion": null
     },
     "249557c81e9896baea1548e19a4941e4": {
       "especialidad": "EDUCACION FISICA",
@@ -671,7 +718,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_MODELO_3Ñ_07021926.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:38.684672",
+      "timestamp": "2026-07-07T18:10:25.377480",
       "personas": [
         {
           "orden": "1",
@@ -688,7 +735,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "3e1a651b4c1dfbf2b12fe6ba1a8729d7": {
       "especialidad": "EDUCACION FISICA",
@@ -697,8 +745,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_MODELO_3F_07021318.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.684716",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.377523",
+      "personas": [],
+      "fecha_citacion": null
     },
     "c7d04487ba554e3057451bc1c3192a9d": {
       "especialidad": "EDUCACION FISICA",
@@ -707,8 +756,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_puntuaciones_provisionales_superado_prueba_unica_07021317.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.684745",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.377551",
+      "personas": [],
+      "fecha_citacion": null
     },
     "ce4e9ecb13c5824f88c3c77450747388": {
       "especialidad": "EDUCACION FISICA",
@@ -717,8 +767,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_puntuaciones_provisionales_prueba_unica_07021316.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:38.684774",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.377579",
+      "personas": [],
+      "fecha_citacion": null
     },
     "482caf45685166e67073351b424c2b2a": {
       "especialidad": "EDUCACION FISICA",
@@ -727,8 +778,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF05_MODELO_3D_07011246.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:38.684802",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.377607",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "b00326bbdcb7bf97f19f4b38cb57d7c5": {
       "especialidad": "EDUCACION FISICA",
@@ -737,7 +789,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3P_07071527.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.149088",
+      "timestamp": "2026-07-07T18:10:25.613452",
       "personas": [
         {
           "orden": "1",
@@ -764,7 +816,8 @@
           "nombre": "GARCIA SANCHEZ, CRISTINA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "710c8f85f146e5fcf48c80d8b2877c9b": {
       "especialidad": "EDUCACION FISICA",
@@ -773,7 +826,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3P_07061306.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.149121",
+      "timestamp": "2026-07-07T18:10:25.613485",
       "personas": [
         {
           "orden": "1",
@@ -795,7 +848,8 @@
           "nombre": "GARCIA GUERRERO, MARIA VICTORIA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "1a1ccf9e775f915d1489367c8bae89eb": {
       "especialidad": "EDUCACION FISICA",
@@ -804,8 +858,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031321.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:39.149151",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.613516",
+      "personas": [],
+      "fecha_citacion": null
     },
     "6bdfae263245bb3e6a2f55a796208879": {
       "especialidad": "EDUCACION FISICA",
@@ -814,8 +869,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:39.149180",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.613544",
+      "personas": [],
+      "fecha_citacion": null
     },
     "2d6f7edc9d3f5f3d313a8c73f59a538c": {
       "especialidad": "EDUCACION FISICA",
@@ -824,8 +880,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3L_07031015.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.149210",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.613573",
+      "personas": [],
+      "fecha_citacion": null
     },
     "bf75ed97402fb78082af1a0da9c53938": {
       "especialidad": "EDUCACION FISICA",
@@ -834,8 +891,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3L_07021839.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.149239",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.613602",
+      "personas": [],
+      "fecha_citacion": null
     },
     "583ec7aa0cd62caeb14eedcde1cb8939": {
       "especialidad": "EDUCACION FISICA",
@@ -844,7 +902,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3Ñ_07021838.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.149271",
+      "timestamp": "2026-07-07T18:10:25.613634",
       "personas": [
         {
           "orden": "1",
@@ -861,7 +919,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "4d572fc068bed71279ecbfbc630623d7": {
       "especialidad": "EDUCACION FISICA",
@@ -870,8 +929,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3F_07021315.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:39.149315",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.613677",
+      "personas": [],
+      "fecha_citacion": null
     },
     "243745dca8f99ed325b975f754f93cb7": {
       "especialidad": "EDUCACION FISICA",
@@ -880,8 +940,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_puntuaciones_provisionales_superado_prueba_unica_07021311.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:39.149345",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.613706",
+      "personas": [],
+      "fecha_citacion": null
     },
     "16e2303cfee55f3a9bbe03d5c46d8c38": {
       "especialidad": "EDUCACION FISICA",
@@ -890,8 +951,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_puntuaciones_provisionales_prueba_unica_07021310.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:39.149374",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.613734",
+      "personas": [],
+      "fecha_citacion": null
     },
     "b9790817f9841f13b0aaf30e45f83cd7": {
       "especialidad": "EDUCACION FISICA",
@@ -900,8 +962,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3D_07011234.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.149402",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.613762",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "9df13edb8505ab108aa2a0910c05effb": {
       "especialidad": "EDUCACION FISICA",
@@ -910,14 +973,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3P_07071337.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.605556",
+      "timestamp": "2026-07-07T18:10:25.839920",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "e62be9d4f32c6d1d6bf95ded25b72afe": {
       "especialidad": "EDUCACION FISICA",
@@ -926,8 +990,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_puntuaciones_definitivas_superado_prueba_unica_07061512.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:39.605596",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.839953",
+      "personas": [],
+      "fecha_citacion": null
     },
     "928bb3abf8f73f75142f4d6a8e1e72a5": {
       "especialidad": "EDUCACION FISICA",
@@ -936,7 +1001,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3P_07061300.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.605627",
+      "timestamp": "2026-07-07T18:10:25.839983",
       "personas": [
         {
           "orden": "1",
@@ -958,7 +1023,8 @@
           "nombre": "GUALDA GOMEZ, ALBERTO",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "35ca1e24c4242b7fb34b78ad32b38640": {
       "especialidad": "EDUCACION FISICA",
@@ -967,8 +1033,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:39.605656",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.840013",
+      "personas": [],
+      "fecha_citacion": null
     },
     "23c7d12243f671c1e16b8832706fb6c1": {
       "especialidad": "EDUCACION FISICA",
@@ -977,8 +1044,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3L_07031204.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.605687",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.840042",
+      "personas": [],
+      "fecha_citacion": null
     },
     "f61892499967d65e2b7364b1bd6850ab": {
       "especialidad": "EDUCACION FISICA",
@@ -987,8 +1055,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3L_07021845.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.605716",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.840070",
+      "personas": [],
+      "fecha_citacion": null
     },
     "f5ea9e3f068cc0eb186250c1eac4f6a9": {
       "especialidad": "EDUCACION FISICA",
@@ -997,7 +1066,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3Ñ_07021828.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.605748",
+      "timestamp": "2026-07-07T18:10:25.840103",
       "personas": [
         {
           "orden": "1",
@@ -1014,7 +1083,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "22fd8396b07b96de5dfd4b187ec13b8d": {
       "especialidad": "EDUCACION FISICA",
@@ -1023,8 +1093,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_puntuaciones_provisionales_superado_prueba_unica_07021328.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:39.605778",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.840131",
+      "personas": [],
+      "fecha_citacion": null
     },
     "847c4e6e942f0971d64c0d223458eb11": {
       "especialidad": "EDUCACION FISICA",
@@ -1033,8 +1104,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_puntuaciones_provisionales_prueba_unica_07021308.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:39.605807",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.840160",
+      "personas": [],
+      "fecha_citacion": null
     },
     "c0e82c91aa1b2654ded4d0d602de579b": {
       "especialidad": "EDUCACION FISICA",
@@ -1043,8 +1115,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3F_07021258.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:39.605851",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.840202",
+      "personas": [],
+      "fecha_citacion": null
     },
     "1927e163702012444360f477195fde4d": {
       "especialidad": "EDUCACION FISICA",
@@ -1053,8 +1126,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3D_07011356.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:39.605878",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:25.840233",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "8969963f26154a34c19c4305c66116cf": {
       "especialidad": "EDUCACION FISICA",
@@ -1063,7 +1137,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3P_07071356.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:40.579553",
+      "timestamp": "2026-07-07T18:10:26.399483",
       "personas": [
         {
           "orden": "1",
@@ -1090,7 +1164,8 @@
           "nombre": "JULIA HURTADO, PASCUAL",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "c99b69dad7c2a2ec51f2c288e75b58ba": {
       "especialidad": "EDUCACION FISICA",
@@ -1099,7 +1174,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3P_07061317.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:40.579586",
+      "timestamp": "2026-07-07T18:10:26.399515",
       "personas": [
         {
           "orden": "1",
@@ -1126,7 +1201,8 @@
           "nombre": "JIMENEZ HERRERA, CARMEN",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "9123cdd188e8ce876c952a6aecbfd854": {
       "especialidad": "EDUCACION FISICA",
@@ -1135,8 +1211,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031254.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:40.579619",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.399546",
+      "personas": [],
+      "fecha_citacion": null
     },
     "3582ca97398e0aa642ecfc3e2e99887f": {
       "especialidad": "EDUCACION FISICA",
@@ -1145,8 +1222,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:40.579650",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.399574",
+      "personas": [],
+      "fecha_citacion": null
     },
     "035e6ea8d96f182f649ae57429e3cee2": {
       "especialidad": "EDUCACION FISICA",
@@ -1155,8 +1233,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3L_07021855.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:40.579682",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.399604",
+      "personas": [],
+      "fecha_citacion": null
     },
     "1f146ef69d56489174c671d002b6e5ba": {
       "especialidad": "EDUCACION FISICA",
@@ -1165,7 +1244,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3Ñ_07021833.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:40.579715",
+      "timestamp": "2026-07-07T18:10:26.399636",
       "personas": [
         {
           "orden": "1",
@@ -1182,7 +1261,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "34b5fb4139b516b2357e1bef5e2be72a": {
       "especialidad": "EDUCACION FISICA",
@@ -1191,8 +1271,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3F_07021324.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:40.579760",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.399678",
+      "personas": [],
+      "fecha_citacion": null
     },
     "9f04b654abedf54dfabc2b2de25069f1": {
       "especialidad": "EDUCACION FISICA",
@@ -1201,8 +1282,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_puntuaciones_provisionales_superado_prueba_unica_07021322.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:40.579789",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.399707",
+      "personas": [],
+      "fecha_citacion": null
     },
     "5f053c308806ed43112fe98752d39992": {
       "especialidad": "EDUCACION FISICA",
@@ -1211,8 +1293,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_puntuaciones_provisionales_prueba_unica_07021307.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:40.579818",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.399735",
+      "personas": [],
+      "fecha_citacion": null
     },
     "322a607f1646dac31f4a66afb65d644b": {
       "especialidad": "EDUCACION FISICA",
@@ -1221,8 +1304,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3D_07011429.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:40.579847",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.399762",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "03f7cc4e005d76ba18bc03fd72302a8d": {
       "especialidad": "EDUCACION FISICA",
@@ -1231,7 +1315,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3P_07071555.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.009117",
+      "timestamp": "2026-07-07T18:10:26.644828",
       "personas": [
         {
           "orden": "1",
@@ -1253,7 +1337,8 @@
           "nombre": "LUCAS TUDELA, DAVID",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "69bb4235bf73fba9c2a9aa49c087c23d": {
       "especialidad": "EDUCACION FISICA",
@@ -1262,7 +1347,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3P_07061555.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.009154",
+      "timestamp": "2026-07-07T18:10:26.644863",
       "personas": [
         {
           "orden": "1",
@@ -1284,7 +1369,8 @@
           "nombre": "LORENZO INIESTA, SILVIA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "a69ab481c32c4ae31a13e47bd027054d": {
       "especialidad": "EDUCACION FISICA",
@@ -1293,8 +1379,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3L_07031229.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.009186",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.644894",
+      "personas": [],
+      "fecha_citacion": null
     },
     "7623773efd7b723be3aa51bd860498c1": {
       "especialidad": "EDUCACION FISICA",
@@ -1303,8 +1390,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031228.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.009217",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.644924",
+      "personas": [],
+      "fecha_citacion": null
     },
     "08ccb5a117d07f68095357d3a6790ec5": {
       "especialidad": "EDUCACION FISICA",
@@ -1313,8 +1401,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031227.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.009247",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.644952",
+      "personas": [],
+      "fecha_citacion": null
     },
     "5124cc3d1be71d921414de4b8b4c0efd": {
       "especialidad": "EDUCACION FISICA",
@@ -1323,7 +1412,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3Ñ_07021735.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.009279",
+      "timestamp": "2026-07-07T18:10:26.644985",
       "personas": [
         {
           "orden": "1",
@@ -1340,7 +1429,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "202ff16f06f46cd5118f7cc0ea692ba4": {
       "especialidad": "EDUCACION FISICA",
@@ -1349,8 +1439,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3F_07021254.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.009323",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.645028",
+      "personas": [],
+      "fecha_citacion": null
     },
     "c19e70f6f7b86c7b5d6ed2186c3e4725": {
       "especialidad": "EDUCACION FISICA",
@@ -1359,8 +1450,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_puntuaciones_provisionales_superado_prueba_unica_07021226.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.009353",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.645057",
+      "personas": [],
+      "fecha_citacion": null
     },
     "97c01f6d65390f5a58c4e2e246ef402a": {
       "especialidad": "EDUCACION FISICA",
@@ -1369,8 +1461,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_puntuaciones_provisionales_prueba_unica_07021223.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.009381",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.645085",
+      "personas": [],
+      "fecha_citacion": null
     },
     "1ce4bede7d89936e752a5b712300f6f9": {
       "especialidad": "EDUCACION FISICA",
@@ -1379,8 +1472,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3D_07011301.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.009409",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.645112",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "30e38a1282dccc7089ef187b7ad322ee": {
       "especialidad": "EDUCACION FISICA",
@@ -1389,14 +1483,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3P_07071556.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.422393",
+      "timestamp": "2026-07-07T18:10:26.962266",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "a87457e00494a3b431b6b575c4e142be": {
       "especialidad": "EDUCACION FISICA",
@@ -1405,14 +1500,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3P_07061103.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.422433",
+      "timestamp": "2026-07-07T18:10:26.962301",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "7c1ffe9865ffbc8c19bf5096090f3eba": {
       "especialidad": "EDUCACION FISICA",
@@ -1421,8 +1517,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3L_07031602.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.422464",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.962337",
+      "personas": [],
+      "fecha_citacion": null
     },
     "3cbc8bd07ef3c8e8c4ef92552348f21a": {
       "especialidad": "EDUCACION FISICA",
@@ -1431,8 +1528,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031329.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.422495",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.962367",
+      "personas": [],
+      "fecha_citacion": null
     },
     "976118c191a78707a10fac459dec979e": {
       "especialidad": "EDUCACION FISICA",
@@ -1441,8 +1539,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031320.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.422524",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.962394",
+      "personas": [],
+      "fecha_citacion": null
     },
     "42eb97a80b505ea955ebdd390c407ea2": {
       "especialidad": "EDUCACION FISICA",
@@ -1451,8 +1550,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.422553",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.962421",
+      "personas": [],
+      "fecha_citacion": null
     },
     "88f65fa2377f3e3378aa6804d0d7e600": {
       "especialidad": "EDUCACION FISICA",
@@ -1461,7 +1561,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3Ñ_07031254.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.422586",
+      "timestamp": "2026-07-07T18:10:26.962467",
       "personas": [
         {
           "orden": "1",
@@ -1478,7 +1578,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "99e5856e2dd6a0dd2078f0bac55c4209": {
       "especialidad": "EDUCACION FISICA",
@@ -1487,8 +1588,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_puntuaciones_provisionales_prueba_unica_07021251.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.422615",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.962497",
+      "personas": [],
+      "fecha_citacion": null
     },
     "c7eadbac79bbaf17560fce6d212b60cb": {
       "especialidad": "EDUCACION FISICA",
@@ -1497,8 +1599,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_puntuaciones_provisionales_superado_prueba_unica_07021250.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.422644",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.962524",
+      "personas": [],
+      "fecha_citacion": null
     },
     "53ca1d5b8ec4b3d77959998139686a02": {
       "especialidad": "EDUCACION FISICA",
@@ -1507,8 +1610,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3F_07021249.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.422689",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.962566",
+      "personas": [],
+      "fecha_citacion": null
     },
     "e1fe6cbc8daeb71641b8c034d3b1a46c": {
       "especialidad": "EDUCACION FISICA",
@@ -1517,8 +1621,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3D_07011526.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.422717",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:26.962593",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "9f29302d49a95dc30b8279a68158ba32": {
       "especialidad": "EDUCACION FISICA",
@@ -1527,7 +1632,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3P_07071501.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.864481",
+      "timestamp": "2026-07-07T18:10:27.194715",
       "personas": [
         {
           "orden": "1",
@@ -1554,7 +1659,8 @@
           "nombre": "MORENO CASELLES, MIRIAM",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "fda6af34a7ae79c3592735c7cde59a9b": {
       "especialidad": "EDUCACION FISICA",
@@ -1563,7 +1669,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3P_07061456.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.864514",
+      "timestamp": "2026-07-07T18:10:27.194748",
       "personas": [
         {
           "orden": "1",
@@ -1590,7 +1696,8 @@
           "nombre": "MONTERO GONZÁLEZ, ALFREDO",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "e21bf1ccd95f57ceedc112ace14e788d": {
       "especialidad": "EDUCACION FISICA",
@@ -1599,8 +1706,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3L_07031226.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.864545",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.194778",
+      "personas": [],
+      "fecha_citacion": null
     },
     "4906f76d4a515d97d94ad95925939762": {
       "especialidad": "EDUCACION FISICA",
@@ -1609,8 +1717,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031215.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.864576",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.194807",
+      "personas": [],
+      "fecha_citacion": null
     },
     "af254933d131b30e8f145656376024b3": {
       "especialidad": "EDUCACION FISICA",
@@ -1619,8 +1728,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031213.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.864607",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.194835",
+      "personas": [],
+      "fecha_citacion": null
     },
     "480526129c74bdd79a17333aa9db52dd": {
       "especialidad": "EDUCACION FISICA",
@@ -1629,7 +1739,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3Ñ_07030856.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.864640",
+      "timestamp": "2026-07-07T18:10:27.194869",
       "personas": [
         {
           "orden": "1",
@@ -1646,7 +1756,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "07fab135c2227a8eca470aa6744ebf20": {
       "especialidad": "EDUCACION FISICA",
@@ -1655,8 +1766,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3F_07021306.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.864685",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.194911",
+      "personas": [],
+      "fecha_citacion": null
     },
     "5e61850bbb02e1fffa3aae5a86271e20": {
       "especialidad": "EDUCACION FISICA",
@@ -1665,8 +1777,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_puntuaciones_provisionales_superado_prueba_unica_07021217.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.864714",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.194944",
+      "personas": [],
+      "fecha_citacion": null
     },
     "3736c60e0615561ce423415bf67c49e1": {
       "especialidad": "EDUCACION FISICA",
@@ -1675,8 +1788,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_puntuaciones_provisionales_prueba_unica_07021215.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:41.864748",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.194972",
+      "personas": [],
+      "fecha_citacion": null
     },
     "66252fe8d4b02a50afd331e01e08ac2c": {
       "especialidad": "EDUCACION FISICA",
@@ -1685,8 +1799,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3D_07011517.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:41.864775",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.194999",
+      "personas": [],
+      "fecha_citacion": null
     },
     "08846b82c767d9c08eed959a3415acef": {
       "especialidad": "EDUCACION FISICA",
@@ -1695,7 +1810,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_MODELO_3P_07070828.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:42.305472",
+      "timestamp": "2026-07-07T18:10:27.416931",
       "personas": [
         {
           "orden": "1",
@@ -1722,7 +1837,8 @@
           "nombre": "PARDO MERCADER, ANA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "c23ad5f1a941c29a799b37598c06525a": {
       "especialidad": "EDUCACION FISICA",
@@ -1731,7 +1847,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_MODELO_3P_07061206.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:42.305507",
+      "timestamp": "2026-07-07T18:10:27.416965",
       "personas": [
         {
           "orden": "1",
@@ -1753,7 +1869,8 @@
           "nombre": "PALACIOS FUENTES, NATALIA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "7725bbfdd29c8686d51c5c2d37207f65": {
       "especialidad": "EDUCACION FISICA",
@@ -1762,8 +1879,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031212.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:42.305538",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.416996",
+      "personas": [],
+      "fecha_citacion": null
     },
     "d02a07bf0abfe3989c43364abc07642b": {
       "especialidad": "EDUCACION FISICA",
@@ -1772,8 +1890,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031210.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:42.305568",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.417024",
+      "personas": [],
+      "fecha_citacion": null
     },
     "66fbcf6c4ad63db6e46e53ceafd37382": {
       "especialidad": "EDUCACION FISICA",
@@ -1782,7 +1901,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_MODELO_3Ñ_07021557.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:42.305601",
+      "timestamp": "2026-07-07T18:10:27.417058",
       "personas": [
         {
           "orden": "1",
@@ -1799,7 +1918,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "e9a3b013a05c22305cd6ddb0788ef88f": {
       "especialidad": "EDUCACION FISICA",
@@ -1808,8 +1928,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_MODELO_3F_07021249.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:42.305652",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.417102",
+      "personas": [],
+      "fecha_citacion": null
     },
     "2f9e8375c8dcfaf3cb85341a31219918": {
       "especialidad": "EDUCACION FISICA",
@@ -1818,8 +1939,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_puntuaciones_provisionales_superado_prueba_unica_07021248.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:42.305682",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.417131",
+      "personas": [],
+      "fecha_citacion": null
     },
     "1e26610c5f1513e367437292c489a7d4": {
       "especialidad": "EDUCACION FISICA",
@@ -1828,8 +1950,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_puntuaciones_provisionales_prueba_unica_07021248.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:42.305714",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.417164",
+      "personas": [],
+      "fecha_citacion": null
     },
     "b773bbe79561e30cbd8a120e439671e0": {
       "especialidad": "EDUCACION FISICA",
@@ -1838,8 +1961,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_MODELO_3D_07011535.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:42.305743",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.417192",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "2e45c207072baa48e8eecb1d59015715": {
       "especialidad": "EDUCACION FISICA",
@@ -1848,7 +1972,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3P_07071556.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:43.318360",
+      "timestamp": "2026-07-07T18:10:27.987569",
       "personas": [
         {
           "orden": "1",
@@ -1870,7 +1994,8 @@
           "nombre": "QUESADA MOLINA, JUAN",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "dd5f6450d9f11d1d13a4b4bd3af253fd": {
       "especialidad": "EDUCACION FISICA",
@@ -1879,7 +2004,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3P_07061325.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:43.318397",
+      "timestamp": "2026-07-07T18:10:27.987600",
       "personas": [
         {
           "orden": "1",
@@ -1901,7 +2026,8 @@
           "nombre": "POMARES PEÑA, ISABEL",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "d24a5f169432099a46343d6f6eb884d0": {
       "especialidad": "EDUCACION FISICA",
@@ -1910,8 +2036,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031256.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:43.318429",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.987630",
+      "personas": [],
+      "fecha_citacion": null
     },
     "5d27f1423140b6821a7a81725ecc7fb2": {
       "especialidad": "EDUCACION FISICA",
@@ -1920,8 +2047,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:43.318459",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.987659",
+      "personas": [],
+      "fecha_citacion": null
     },
     "d57cc8a46cab39c8c83e9d4a8735525e": {
       "especialidad": "EDUCACION FISICA",
@@ -1930,8 +2058,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3L_07021856.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:43.318490",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.987688",
+      "personas": [],
+      "fecha_citacion": null
     },
     "6a2d5bcd797879e1dd1cec71d88b84f8": {
       "especialidad": "EDUCACION FISICA",
@@ -1940,7 +2069,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3Ñ_07021532.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:43.318522",
+      "timestamp": "2026-07-07T18:10:27.987720",
       "personas": [
         {
           "orden": "1",
@@ -1957,7 +2086,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "00f66cf43368028cdabadce215e9990e": {
       "especialidad": "EDUCACION FISICA",
@@ -1966,8 +2096,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3F_07021302.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:43.318567",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.987762",
+      "personas": [],
+      "fecha_citacion": null
     },
     "a96f0bbc2f82878b7f0d4102610e559a": {
       "especialidad": "EDUCACION FISICA",
@@ -1976,8 +2107,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_puntuaciones_provisionales_superado_prueba_unica_07021301.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:43.318596",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.987790",
+      "personas": [],
+      "fecha_citacion": null
     },
     "84477edd60f4fb2a480a40beca35fe4e": {
       "especialidad": "EDUCACION FISICA",
@@ -1986,8 +2118,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_puntuaciones_provisionales_prueba_unica_07021301.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:43.318630",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.987818",
+      "personas": [],
+      "fecha_citacion": null
     },
     "90a957e89de1ccd02c8512514477e54a": {
       "especialidad": "EDUCACION FISICA",
@@ -1996,8 +2129,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3D_07011620.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:43.318658",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:27.987845",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "ecbf305ed9fd012b22e0566b5df6b6ee": {
       "especialidad": "EDUCACION FISICA",
@@ -2006,14 +2140,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3P_07071747.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:43.742745",
+      "timestamp": "2026-07-07T18:10:28.219258",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "a125ced982b192d2cd7a8d37906b3e4c": {
       "especialidad": "EDUCACION FISICA",
@@ -2022,14 +2157,15 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3P_07061615.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:43.742780",
+      "timestamp": "2026-07-07T18:10:28.219291",
       "personas": [
         {
           "orden": "1",
           "nombre": "PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "78f34652cee237f35cb0d962d834ffdc": {
       "especialidad": "EDUCACION FISICA",
@@ -2038,8 +2174,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031236.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:43.742811",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.219320",
+      "personas": [],
+      "fecha_citacion": null
     },
     "4ba2b38956411337dfda164ea78882b5": {
       "especialidad": "EDUCACION FISICA",
@@ -2048,8 +2185,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:43.742841",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.219349",
+      "personas": [],
+      "fecha_citacion": null
     },
     "fd3cb8d45693a917aa0aa6dd526a9d90": {
       "especialidad": "EDUCACION FISICA",
@@ -2058,8 +2196,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3L_07021914.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:43.742872",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.219379",
+      "personas": [],
+      "fecha_citacion": null
     },
     "91004a6254a4da32fe57476488ae2965": {
       "especialidad": "EDUCACION FISICA",
@@ -2068,7 +2207,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3Ñ_07021913.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:43.742904",
+      "timestamp": "2026-07-07T18:10:28.219412",
       "personas": [
         {
           "orden": "1",
@@ -2085,7 +2224,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "905267bdb6f54247bedcab7c5c8e7fff": {
       "especialidad": "EDUCACION FISICA",
@@ -2094,8 +2234,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3F_07021308.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:43.742948",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.219471",
+      "personas": [],
+      "fecha_citacion": null
     },
     "a62be347586e5d947e2fafd59de052b9": {
       "especialidad": "EDUCACION FISICA",
@@ -2104,8 +2245,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_puntuaciones_provisionales_superado_prueba_unica_07021305.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:43.742981",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.219499",
+      "personas": [],
+      "fecha_citacion": null
     },
     "1068b3b6debc32d9db7c8a6d7470e7ab": {
       "especialidad": "EDUCACION FISICA",
@@ -2114,8 +2256,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_puntuaciones_provisionales_prueba_unica_07021305.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:43.743027",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.219528",
+      "personas": [],
+      "fecha_citacion": null
     },
     "792bb0f15daadd18cc24e1910b72373d": {
       "especialidad": "EDUCACION FISICA",
@@ -2124,8 +2267,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3D_07011244.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:43.743056",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.219556",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     },
     "330625f28a2843011ff4fe1e90d4018c": {
       "especialidad": "EDUCACION FISICA",
@@ -2134,7 +2278,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3P_07071529.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:44.101794",
+      "timestamp": "2026-07-07T18:10:28.451998",
       "personas": [
         {
           "orden": "1",
@@ -2161,7 +2305,8 @@
           "nombre": "SOLER MESA, LORENA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "923b1a0aa68217106f5080a1f5ba5ad1": {
       "especialidad": "EDUCACION FISICA",
@@ -2170,7 +2315,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3P_07061632.pdf",
       "text": "CITACIÓN A DETERMINADOS ASPIRANTES",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:44.101828",
+      "timestamp": "2026-07-07T18:10:28.452031",
       "personas": [
         {
           "orden": "1",
@@ -2192,7 +2337,8 @@
           "nombre": "SEMITIEL MORALES, MANUEL",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "4736c35e4a50a078f1840cf0bf407843": {
       "especialidad": "EDUCACION FISICA",
@@ -2201,8 +2347,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031552.pdf",
       "text": "Puntuaciones definitivas obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:44.101864",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.452060",
+      "personas": [],
+      "fecha_citacion": null
     },
     "c68536dcf9367d10d253bca35f8ca4c7": {
       "especialidad": "EDUCACION FISICA",
@@ -2211,8 +2358,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf",
       "text": "Puntuaciones definitivas obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:44.101893",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.452088",
+      "personas": [],
+      "fecha_citacion": null
     },
     "c0ac547d7c07960531cc61b33bbe75fa": {
       "especialidad": "EDUCACION FISICA",
@@ -2221,8 +2369,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3L_07021945.pdf",
       "text": "CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:44.101924",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.452117",
+      "personas": [],
+      "fecha_citacion": null
     },
     "217f7e0a5110f4325e369df64f8c0a7b": {
       "especialidad": "EDUCACION FISICA",
@@ -2231,7 +2380,7 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3Ñ_07021943.pdf",
       "text": "CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:44.101957",
+      "timestamp": "2026-07-07T18:10:28.452149",
       "personas": [
         {
           "orden": "1",
@@ -2248,7 +2397,8 @@
           "nombre": "DOCUMENTACIÓN ACREDITATIVA",
           "hora": ""
         }
-      ]
+      ],
+      "fecha_citacion": null
     },
     "51eedcdb57d0bad034974f82d1f8bbff": {
       "especialidad": "EDUCACION FISICA",
@@ -2257,8 +2407,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3F_07021308.pdf",
       "text": "PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:44.102022",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.452191",
+      "personas": [],
+      "fecha_citacion": null
     },
     "702754289da32332aa64f799239d9e59": {
       "especialidad": "EDUCACION FISICA",
@@ -2267,8 +2418,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_puntuaciones_provisionales_superado_prueba_unica_07021306.pdf",
       "text": "Puntuaciones provisionales obtenidas superado prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:44.102053",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.452220",
+      "personas": [],
+      "fecha_citacion": null
     },
     "37c600ee646533063daa1b5c5ad73166": {
       "especialidad": "EDUCACION FISICA",
@@ -2277,8 +2429,9 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_puntuaciones_provisionales_prueba_unica_07021305.pdf",
       "text": "Puntuaciones provisionales obtenidas prueba unica",
       "tipo": "calificacion",
-      "timestamp": "2026-07-07T17:50:44.102082",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.452248",
+      "personas": [],
+      "fecha_citacion": null
     },
     "42dcc53602ff2adf911ae44dd3e6828c": {
       "especialidad": "EDUCACION FISICA",
@@ -2287,10 +2440,11 @@
       "url": "https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3D_07011635.pdf",
       "text": "CITACIÓN APERTURA DE CABECERAS",
       "tipo": "citacion",
-      "timestamp": "2026-07-07T17:50:44.102110",
-      "personas": []
+      "timestamp": "2026-07-07T18:10:28.452275",
+      "personas": [],
+      "fecha_citacion": "2026-07-02"
     }
   },
-  "last_scan": "2026-07-07T17:51:15.574958",
-  "scans": 1
+  "last_scan": "2026-07-07T18:10:37.655754",
+  "scans": 2
 }
