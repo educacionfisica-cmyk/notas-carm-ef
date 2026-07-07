@@ -31,6 +31,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Ejecutar monitor
+        env:
+          GMAIL_USUARIO:        ${{ secrets.GMAIL_USUARIO }}
+          GMAIL_CONTRASENA_APP: ${{ secrets.GMAIL_CONTRASENA_APP }}
+          EMAIL_DESTINO:        ${{ secrets.EMAIL_DESTINO }}
         run: python monitor_ef.py --once
 
       - name: Commit cambios
