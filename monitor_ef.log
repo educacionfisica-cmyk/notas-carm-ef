@@ -722,3 +722,33 @@
 [19:47:53] INFO:   ✅ Sin novedades
 [19:47:53] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
 [19:47:53] INFO: ✅ Completado.
+[21:18:39] INFO: 🤖 GitHub Actions.
+[21:18:39] INFO: Publicaciones conocidas: 154
+[21:18:39] INFO: Email: configurado
+[21:18:39] INFO: 
+── Barrido #1 (21:18:39) ──
+[21:18:39] INFO: 🚀 Barrido EF CARM...
+[21:18:41] INFO:   Especialidades: ['EDUCACION FISICA']
+[21:18:41] INFO:   EDUCACION FISICA: 15 tribunal(es)
+[21:18:47] INFO:   Total encontradas: 154
+[21:18:47] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[21:18:47] INFO:      → Sin nombres extraídos
+[21:18:47] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[21:18:47] INFO:      → Sin nombres extraídos
+[21:18:47] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[21:18:48] INFO:      → Sin nombres extraídos
+[21:18:48] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[21:18:49] INFO:      → Sin nombres extraídos
+[21:18:49] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[21:18:49] INFO:      → Sin nombres extraídos
+[21:18:49] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[21:18:49] INFO:      → Sin nombres extraídos
+[21:18:49] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[21:18:49] INFO:      → Sin nombres extraídos
+[21:18:49] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[21:18:50] INFO:      → Sin nombres extraídos
+[21:18:50] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[21:18:50] INFO:      → Sin nombres extraídos
+[21:18:50] INFO:   ✅ Sin novedades
+[21:18:50] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[21:18:50] INFO: ✅ Completado.
