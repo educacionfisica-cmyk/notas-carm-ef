@@ -1,0 +1,53 @@
+name: Monitor EF CARM 2026
+
+on:
+  # Cada 15 min, L-V, 14:00-00:00 hora España (= 12:00-22:00 UTC verano)
+  schedule:
+    - cron: '*/15 12-22 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar monitor
+        run: python monitor_ef.py --once
+
+      - name: Commit cambios
+        run: |
+          git config user.name  "Monitor EF Bot"
+          git config user.email "monitor@github-actions"
+          git add docs/ state_ef.json monitor_ef.log || true
+          git diff --staged --quiet || git commit -m "🤖 $(date -u '+%d/%m/%Y %H:%M UTC')"
+          git push
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+      - name: Desplegar Pages
+        uses: actions/deploy-pages@v4
