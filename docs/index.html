@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="900">
+<title>EF CARM 2026</title>
+<style>
+* { box-sizing:border-box; margin:0; padding:0 }
+body { font-family:'Segoe UI',Arial,sans-serif; background:#f0f2f5; color:#333; font-size:14px }
+header { background:linear-gradient(135deg,#1e3a5f,#2563eb); color:#fff; padding:18px 24px }
+header h1 { font-size:19px; font-weight:700 }
+header p  { font-size:12px; opacity:.75; margin-top:3px }
+.wrap { padding:16px; max-width:1100px; margin:0 auto }
+
+/* Stats */
+.stats { display:flex; gap:12px; flex-wrap:wrap; margin:16px 0 }
+.stat { background:#fff; border-radius:10px; padding:14px 20px; flex:1; min-width:110px;
+         box-shadow:0 1px 4px rgba(0,0,0,.08); text-align:center }
+.stat .num { font-size:28px; font-weight:700; color:#2563eb }
+.stat .lbl { font-size:11px; color:#888; margin-top:2px }
+
+/* Cards */
+.card { background:#fff; border-radius:10px; padding:16px; margin-bottom:14px;
+         box-shadow:0 1px 4px rgba(0,0,0,.08) }
+.card h2 { font-size:14px; font-weight:700; color:#1e3a5f; margin-bottom:12px;
+            padding-bottom:8px; border-bottom:2px solid #e5e7eb }
+
+/* Tablas generales */
+table { width:100%; border-collapse:collapse; font-size:13px }
+th { background:#f8fafc; text-align:left; padding:8px 10px; font-weight:600;
+      color:#555; border-bottom:2px solid #e5e7eb }
+td { padding:7px 10px; border-bottom:1px solid #f0f0f0; vertical-align:middle }
+tr:last-child td { border-bottom:none }
+tr:hover td { background:#fafbff }
+td.ok    { color:#166534; font-weight:600 }
+td.empty { color:#bbb }
+
+/* Badges */
+.badge { display:inline-block; border-radius:12px; padding:2px 8px;
+          font-size:11px; font-weight:600 }
+.badge.cit { background:#dbeafe; color:#1d4ed8 }
+.badge.cal { background:#dcfce7; color:#166534 }
+
+/* Bloques de personas citadas */
+.cit-block {
+  border:1px solid #e5e7eb; border-radius:8px;
+  margin-bottom:14px; overflow:hidden;
+}
+.cit-header {
+  background:#f1f5f9; padding:10px 14px;
+  display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+}
+.trib-tag {
+  background:#2563eb; color:#fff; border-radius:20px;
+  padding:2px 10px; font-size:12px; font-weight:700;
+}
+.fecha-tag { font-size:13px; font-weight:600; color:#374151 }
+.count-tag { font-size:12px; color:#6b7280; margin-left:auto }
+.pers-table { width:100%; border-collapse:collapse; font-size:13px }
+.pers-table th { background:#f8fafc; padding:7px 12px; text-align:left;
+                  font-weight:600; color:#555; border-bottom:1px solid #e5e7eb }
+.pers-table td { padding:6px 12px; border-bottom:1px solid #f5f5f5 }
+.pers-table td.ord { color:#9ca3af; font-size:12px; width:36px }
+.pers-table tr:last-child td { border-bottom:none }
+.pers-table tr:hover td { background:#fafbff }
+.pers-table tr:nth-child(even) td { background:#fafeff }
+
+.info-msg { color:#6b7280; font-style:italic; padding:8px 0 }
+a { color:#2563eb; text-decoration:none }
+a:hover { text-decoration:underline }
+.ts { font-size:11px; color:#aaa; text-align:right; margin-top:8px }
+</style>
+</head>
+<body>
+<header>
+  <h1>📋 Oposiciones EF — CARM 2026</h1>
+  <p>Publicaciones de tribunales · Educación Física · Se recarga cada 15 min</p>
+</header>
+<div class="wrap">
+
+  <div class="stats">
+    <div class="stat"><div class="num">15</div><div class="lbl">Tribunales</div></div>
+    <div class="stat"><div class="num" style="color:#1d4ed8">76</div><div class="lbl">Citaciones</div></div>
+    <div class="stat"><div class="num" style="color:#166534">78</div><div class="lbl">Calificaciones</div></div>
+    <div class="stat"><div class="num" style="color:#6b7280">154</div><div class="lbl">Total docs</div></div>
+  </div>
+
+  <div class="card">
+    <h2>📊 Estado por tribunal</h2>
+    <table>
+      <thead><tr><th>Tribunal</th><th>Citaciones</th><th>Calificaciones</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>T01</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T02</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">6</td>
+        </tr>
+        <tr>
+          <td><strong>T03</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T04</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T05</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">6</td>
+        </tr>
+        <tr>
+          <td><strong>T06</strong></td>
+          <td class="ok">6</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T07</strong></td>
+          <td class="ok">6</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T08</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T09</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T10</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">6</td>
+        </tr>
+        <tr>
+          <td><strong>T11</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T12</strong></td>
+          <td class="ok">4</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T13</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T14</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">5</td>
+        </tr>
+        <tr>
+          <td><strong>T15</strong></td>
+          <td class="ok">5</td>
+          <td class="ok">5</td>
+        </tr></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>👥 Personas citadas por tribunal y día</h2>
+    
+    
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T01</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">5 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T02</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">13 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>ABRIL HERNÁNDEZ, DAVID</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>AGUILAR GARCÍA, LIDIA MACARENA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>ALBALADEJO MARÍN, EDUARDO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>ALBALADEJO MORENO, OLGA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>PABLO ALCARAZ BAEZA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>RAQUEL ALCÁZAR GÁZQUEZ</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>CARMEN TRINIDAD ALCÁZAR SÁNCHEZ</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">5</td>
+                  <td>CESARE ALCIONE OLMOS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">6</td>
+                  <td>HELENA ALEMÁN GÓMEZ</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T03</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">5 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T04</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">5 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T05</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">11 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>ESQUIVA TORRES, LUCIA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>ESTERAS CAZORLA, MARTA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>EXPOSITO GARCIA, ALBERTO ANTONIO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>FERNANDEZ CABALLERO, MARTA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>FERNANDEZ EGEA, PABLO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>FERNANDEZ LOPEZ, NURIA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>FERNANDEZ MERLOS, JOSE DAVID</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">5</td>
+                  <td>FERNANDEZ MOGA, SERGIO</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T06</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">12 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>GARCIA GARCIA, PEDRO LUIS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>GARCIA GARCIA, RAFAEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>GARCIA GOMEZ, ALEJANDRO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>GARCIA GUERRERO, MARIA VICTORIA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>GARCIA MARIN, DAVID</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>GARCIA MARTINEZ, CAROLINA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>GARCIA MUÑOZ, ESTHER</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>GARCIA QUIJADA, DIEGO JOSE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">5</td>
+                  <td>GARCIA SANCHEZ, CRISTINA</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T07</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">8 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>GONZALEZ ROMERO, JOSE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>GONZALEZ SAEZ, JOSE MIGUEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>GONZALEZ SOLER, FRANCISCO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>GUALDA GOMEZ, ALBERTO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T08</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">13 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>INGLES MARTOS, MARIA JOSE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>JAQUERO YEPEZ, PABLO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>JEREZ LOPEZ, PABLO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>JIMENEZ ANDREU, ISMAEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">5</td>
+                  <td>JIMENEZ HERRERA, CARMEN</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>JIMENEZ MARCOS, MIGUEL ANGEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>JIMENEZ MENDEZ, JAVIER</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>JIMENEZ ROMERO, JULIO JOSE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>JULIA HURTADO, ALVARO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">5</td>
+                  <td>JULIA HURTADO, PASCUAL</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T09</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">11 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LOPEZ SANCHEZ, ANA ISABEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>LOPEZ VERA, ANTONIO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>LORENTE SANZ, NURIA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>LORENZO INIESTA, SILVIA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LOZANO ALONSO, ALBERTO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>LOZANO MANZANO, RAMON</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>LOZANO OLIVARES, MARIAM</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>LUCAS TUDELA, DAVID</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T10</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">5 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T11</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">13 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>MOLINO SÁNCHEZ, RAQUEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>MOMPEAN MARTINEZ, LORENA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>MOMPEAN SÁNCHEZ, ANTONIO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>MONDEJAR GARCÍA, ANTONIO JESÚS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">5</td>
+                  <td>MONTERO GONZÁLEZ, ALFREDO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>MONTERO RAMOS, ÁLVARO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>MORAL FERNÁNDEZ, JAIME</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>MORALES ZAMORA, ISABEL MARÍA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>MORCILLO NAVARRO, JOSE MANUEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">5</td>
+                  <td>MORENO CASELLES, MIRIAM</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T12</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">12 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>OCAÑA SALAS, BORJA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>ORTEGA CÁMARA, DANIEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>PAGÁN SÁNCHEZ, JOSÉ</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>PALACIOS FUENTES, NATALIA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PALAZÓN CAMACHO, JULIA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>PALAZÓN PIQUERAS, MARTA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>PALMA GÓMEZ, SARAY</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>PALMA RAMOS, SEBASTIÁN</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">5</td>
+                  <td>PARDO MERCADER, ANA</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T13</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">11 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PÉREZ YEPES, JOSÉ VICTOR</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>PINA ZAMBRANA, SAMUEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>PLAZA LARROSA, ALEJANDRO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>POMARES PEÑA, ISABEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PRIETO MARTÍNEZ, OSCAR</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>PUCHE GARCÍA, ALBERTO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>PULIDO CASTELLANO, ANDREA PAOLA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>QUESADA MOLINA, JUAN</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T14</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">5 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>PROCESO SELECTIVO PARA INGRESO Y ADQUISICIÓN DE NUEVAS</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+            <div class="cit-block">
+              <div class="cit-header">
+                <span class="trib-tag">T15</span>
+                <span class="fecha-tag">📅 07/07/2026</span>
+                <span class="count-tag">12 personas</span>
+              </div>
+              <table class="pers-table">
+                <thead><tr><th style='width:40px'>Nº</th><th>Nombre</th></tr></thead>
+                <tbody>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>LA PROGRAMACIÓN DIDÁCTICA O, EN SU CASO, DEL PROGRAMA DE</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>INTERVENCIÓN, Y LA FICHA DE BAREMACIÓN CON LA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>DOCUMENTACIÓN ACREDITATIVA</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>SÁNCHEZ SÁNCHEZ, CARLOS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>SÁNCHEZ SOTO, MIGUEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>SEMITIEL MORALES, CARLOS</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>SEMITIEL MORALES, MANUEL</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">1</td>
+                  <td>SERRANO BENAVENTE, ANTONIO JOSÉ</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">2</td>
+                  <td>SERRANO GÓMEZ, ALEJANDRO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">3</td>
+                  <td>SERRANO JIMÉNEZ, JOSÉ ANTONIO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">4</td>
+                  <td>SERRANO PONCE, PABLO</td>
+                  
+                </tr>
+                <tr>
+                  <td class="ord">5</td>
+                  <td>SOLER MESA, LORENA</td>
+                  
+                </tr></tbody>
+              </table>
+            </div>
+  </div>
+
+  <div class="card">
+    <h2>🕐 Todas las publicaciones</h2>
+    <table>
+      <thead><tr>
+        <th style="width:70px">Tribunal</th>
+        <th style="width:110px">Tipo</th>
+        <th>Documento</th>
+        <th style="width:90px">Fecha</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>T15</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3D_07011635.pdf" target="_blank">CITACIÓN APERTURA DE CABECERAS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T15</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_puntuaciones_provisionales_prueba_unica_07021305.pdf" target="_blank">Puntuaciones provisionales obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T15</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_puntuaciones_provisionales_superado_prueba_unica_07021306.pdf" target="_blank">Puntuaciones provisionales obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T15</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3F_07021308.pdf" target="_blank">PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T15</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3Ñ_07021943.pdf" target="_blank">CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T15</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3L_07021945.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T15</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031431.pdf" target="_blank">Puntuaciones definitivas obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T15</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_puntuaciones_definitivas_superado_prueba_unica_07031552.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T15</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3P_07061632.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T15</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF15_MODELO_3P_07071529.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T14</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3D_07011244.pdf" target="_blank">CITACIÓN APERTURA DE CABECERAS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T14</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_puntuaciones_provisionales_prueba_unica_07021305.pdf" target="_blank">Puntuaciones provisionales obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T14</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_puntuaciones_provisionales_superado_prueba_unica_07021305.pdf" target="_blank">Puntuaciones provisionales obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T14</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3F_07021308.pdf" target="_blank">PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T14</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3Ñ_07021913.pdf" target="_blank">CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T14</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3L_07021914.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T14</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031235.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T14</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_puntuaciones_definitivas_superado_prueba_unica_07031236.pdf" target="_blank">Puntuaciones definitivas obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T14</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3P_07061615.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T14</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF14_MODELO_3P_07071747.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T13</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3D_07011620.pdf" target="_blank">CITACIÓN APERTURA DE CABECERAS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T13</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_puntuaciones_provisionales_prueba_unica_07021301.pdf" target="_blank">Puntuaciones provisionales obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T13</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_puntuaciones_provisionales_superado_prueba_unica_07021301.pdf" target="_blank">Puntuaciones provisionales obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T13</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3F_07021302.pdf" target="_blank">PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T13</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3Ñ_07021532.pdf" target="_blank">CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T13</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3L_07021856.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T13</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf" target="_blank">Puntuaciones definitivas obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T13</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_puntuaciones_definitivas_superado_prueba_unica_07031256.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T13</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3P_07061325.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T13</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF13_MODELO_3P_07071556.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T12</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_MODELO_3D_07011535.pdf" target="_blank">CITACIÓN APERTURA DE CABECERAS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T12</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_puntuaciones_provisionales_prueba_unica_07021248.pdf" target="_blank">Puntuaciones provisionales obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T12</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_puntuaciones_provisionales_superado_prueba_unica_07021248.pdf" target="_blank">Puntuaciones provisionales obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T12</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_MODELO_3F_07021249.pdf" target="_blank">PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T12</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_MODELO_3Ñ_07021557.pdf" target="_blank">CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T12</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031210.pdf" target="_blank">Puntuaciones definitivas obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T12</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_puntuaciones_definitivas_superado_prueba_unica_07031212.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T12</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_MODELO_3P_07061206.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T12</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF12_MODELO_3P_07070828.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T11</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3D_07011517.pdf" target="_blank">CITACIÓN APERTURA DE CABECERAS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T11</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_puntuaciones_provisionales_prueba_unica_07021215.pdf" target="_blank">Puntuaciones provisionales obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T11</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_puntuaciones_provisionales_superado_prueba_unica_07021217.pdf" target="_blank">Puntuaciones provisionales obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T11</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3F_07021306.pdf" target="_blank">PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T11</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3Ñ_07030856.pdf" target="_blank">CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T11</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031213.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T11</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_puntuaciones_definitivas_superado_prueba_unica_07031215.pdf" target="_blank">Puntuaciones definitivas obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T11</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3L_07031226.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T11</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3P_07061456.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T11</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF11_MODELO_3P_07071501.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3D_07011526.pdf" target="_blank">CITACIÓN APERTURA DE CABECERAS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3F_07021249.pdf" target="_blank">PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_puntuaciones_provisionales_superado_prueba_unica_07021250.pdf" target="_blank">Puntuaciones provisionales obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_puntuaciones_provisionales_prueba_unica_07021251.pdf" target="_blank">Puntuaciones provisionales obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3Ñ_07031254.pdf" target="_blank">CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031319.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031320.pdf" target="_blank">Puntuaciones definitivas obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_puntuaciones_definitivas_superado_prueba_unica_07031329.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3L_07031602.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3P_07061103.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T10</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF10_MODELO_3P_07071556.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T09</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3D_07011301.pdf" target="_blank">CITACIÓN APERTURA DE CABECERAS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T09</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_puntuaciones_provisionales_prueba_unica_07021223.pdf" target="_blank">Puntuaciones provisionales obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T09</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_puntuaciones_provisionales_superado_prueba_unica_07021226.pdf" target="_blank">Puntuaciones provisionales obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T09</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3F_07021254.pdf" target="_blank">PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T09</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3Ñ_07021735.pdf" target="_blank">CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T09</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031227.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T09</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_puntuaciones_definitivas_superado_prueba_unica_07031228.pdf" target="_blank">Puntuaciones definitivas obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T09</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3L_07031229.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T09</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3P_07061555.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T09</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF09_MODELO_3P_07071555.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T08</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3D_07011429.pdf" target="_blank">CITACIÓN APERTURA DE CABECERAS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T08</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_puntuaciones_provisionales_prueba_unica_07021307.pdf" target="_blank">Puntuaciones provisionales obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T08</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_puntuaciones_provisionales_superado_prueba_unica_07021322.pdf" target="_blank">Puntuaciones provisionales obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T08</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3F_07021324.pdf" target="_blank">PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T08</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3Ñ_07021833.pdf" target="_blank">CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T08</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3L_07021855.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T08</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031253.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T08</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_puntuaciones_definitivas_superado_prueba_unica_07031254.pdf" target="_blank">Puntuaciones definitivas obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T08</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3P_07061317.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T08</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF08_MODELO_3P_07071356.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3D_07011356.pdf" target="_blank">CITACIÓN APERTURA DE CABECERAS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3F_07021258.pdf" target="_blank">PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_puntuaciones_provisionales_prueba_unica_07021308.pdf" target="_blank">Puntuaciones provisionales obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_puntuaciones_provisionales_superado_prueba_unica_07021328.pdf" target="_blank">Puntuaciones provisionales obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3Ñ_07021828.pdf" target="_blank">CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3L_07021845.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3L_07031204.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_puntuaciones_definitivas_superado_prueba_unica_07031302.pdf" target="_blank">Puntuaciones definitivas obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3P_07061300.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_puntuaciones_definitivas_superado_prueba_unica_07061512.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T07</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF07_MODELO_3P_07071337.pdf" target="_blank">CITACIÓN A DETERMINADOS ASPIRANTES</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T06</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3D_07011234.pdf" target="_blank">CITACIÓN APERTURA DE CABECERAS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T06</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_puntuaciones_provisionales_prueba_unica_07021310.pdf" target="_blank">Puntuaciones provisionales obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T06</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_puntuaciones_provisionales_superado_prueba_unica_07021311.pdf" target="_blank">Puntuaciones provisionales obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T06</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3F_07021315.pdf" target="_blank">PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T06</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3Ñ_07021838.pdf" target="_blank">CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T06</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3L_07021839.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T06</td>
+          <td><span class="badge cit">Citación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_MODELO_3L_07031015.pdf" target="_blank">CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T06</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031318.pdf" target="_blank">Puntuaciones definitivas obtenidas superado prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr>
+        <tr>
+          <td>T06</td>
+          <td><span class="badge cal">Calificación</span></td>
+          <td><a href="https://servicios.educarm.es/neweb/resources/admin/File/publicacionesTribunales/OPOPRI26/0597EF06_puntuaciones_definitivas_superado_prueba_unica_07031321.pdf" target="_blank">Puntuaciones definitivas obtenidas prueba unica</a></td>
+          <td style="white-space:nowrap">2026-07-07<br><small style="color:#aaa">17:50</small></td>
+        </tr></tbody>
+    </table>
+  </div>
+
+  <div class="ts">Última actualización: 07/07/2026 17:51</div>
+</div>
+</body>
+</html>

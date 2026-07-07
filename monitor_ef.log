@@ -1,0 +1,318 @@
+[17:50:34] INFO: 🤖 GitHub Actions.
+[17:50:34] INFO: Publicaciones conocidas: 0
+[17:50:34] INFO: 
+── Barrido #1 (17:50:34) ──
+[17:50:34] INFO: 🚀 Barrido EF CARM...
+[17:50:35] INFO:   Especialidades: ['EDUCACION FISICA']
+[17:50:36] INFO:   EDUCACION FISICA: 15 tribunal(es)
+[17:50:44] INFO:   Total encontradas: 154
+[17:50:44] INFO:   📄 Extrayendo nombres de T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:44] INFO:      → 1 personas encontradas
+[17:50:44] INFO:   📄 Extrayendo nombres de T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:44] INFO:      → 1 personas encontradas
+[17:50:44] INFO:   📄 Extrayendo nombres de T01: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:50:45] INFO:      → 3 personas encontradas
+[17:50:45] INFO:   📄 Extrayendo nombres de T01: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:50:45] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:45] INFO:   📄 Extrayendo nombres de T01: CITACIÓN APERTURA DE CABECERAS
+[17:50:46] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:46] INFO:   📄 Extrayendo nombres de T02: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:46] INFO:      → 6 personas encontradas
+[17:50:46] INFO:   📄 Extrayendo nombres de T02: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:46] INFO:      → 4 personas encontradas
+[17:50:46] INFO:   📄 Extrayendo nombres de T02: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:50:47] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:47] INFO:   📄 Extrayendo nombres de T02: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:50:48] INFO:      → 3 personas encontradas
+[17:50:48] INFO:   📄 Extrayendo nombres de T02: CITACIÓN APERTURA DE CABECERAS
+[17:50:48] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:48] INFO:   📄 Extrayendo nombres de T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:48] INFO:      → 1 personas encontradas
+[17:50:48] INFO:   📄 Extrayendo nombres de T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:49] INFO:      → 1 personas encontradas
+[17:50:49] INFO:   📄 Extrayendo nombres de T03: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:50:49] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:49] INFO:   📄 Extrayendo nombres de T03: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:50:49] INFO:      → 3 personas encontradas
+[17:50:49] INFO:   📄 Extrayendo nombres de T03: CITACIÓN APERTURA DE CABECERAS
+[17:50:50] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:50] INFO:   📄 Extrayendo nombres de T04: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:50] INFO:      → 1 personas encontradas
+[17:50:50] INFO:   📄 Extrayendo nombres de T04: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:50] INFO:      → 1 personas encontradas
+[17:50:50] INFO:   📄 Extrayendo nombres de T04: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:50:51] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:51] INFO:   📄 Extrayendo nombres de T04: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:50:51] INFO:      → 3 personas encontradas
+[17:50:51] INFO:   📄 Extrayendo nombres de T04: CITACIÓN APERTURA DE CABECERAS
+[17:50:52] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:52] INFO:   📄 Extrayendo nombres de T05: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:52] INFO:      → 5 personas encontradas
+[17:50:52] INFO:   📄 Extrayendo nombres de T05: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:52] INFO:      → 3 personas encontradas
+[17:50:52] INFO:   📄 Extrayendo nombres de T05: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:50:53] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:53] INFO:   📄 Extrayendo nombres de T05: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:50:54] INFO:      → 3 personas encontradas
+[17:50:54] INFO:   📄 Extrayendo nombres de T05: CITACIÓN APERTURA DE CABECERAS
+[17:50:54] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:54] INFO:   📄 Extrayendo nombres de T06: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:54] INFO:      → 5 personas encontradas
+[17:50:54] INFO:   📄 Extrayendo nombres de T06: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:55] INFO:      → 4 personas encontradas
+[17:50:55] INFO:   📄 Extrayendo nombres de T06: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:50:55] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:55] INFO:   📄 Extrayendo nombres de T06: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:50:55] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:55] INFO:   📄 Extrayendo nombres de T06: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:50:56] INFO:      → 3 personas encontradas
+[17:50:56] INFO:   📄 Extrayendo nombres de T06: CITACIÓN APERTURA DE CABECERAS
+[17:50:56] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:56] INFO:   📄 Extrayendo nombres de T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:56] INFO:      → 1 personas encontradas
+[17:50:56] INFO:   📄 Extrayendo nombres de T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:57] INFO:      → 4 personas encontradas
+[17:50:57] INFO:   📄 Extrayendo nombres de T07: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:50:58] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:58] INFO:   📄 Extrayendo nombres de T07: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:50:58] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:58] INFO:   📄 Extrayendo nombres de T07: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:50:58] INFO:      → 3 personas encontradas
+[17:50:58] INFO:   📄 Extrayendo nombres de T07: CITACIÓN APERTURA DE CABECERAS
+[17:50:58] INFO:      → No se pudieron extraer nombres del PDF
+[17:50:58] INFO:   📄 Extrayendo nombres de T08: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:50:59] INFO:      → 5 personas encontradas
+[17:50:59] INFO:   📄 Extrayendo nombres de T08: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:00] INFO:      → 5 personas encontradas
+[17:51:00] INFO:   📄 Extrayendo nombres de T08: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:51:00] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:00] INFO:   📄 Extrayendo nombres de T08: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:51:00] INFO:      → 3 personas encontradas
+[17:51:00] INFO:   📄 Extrayendo nombres de T08: CITACIÓN APERTURA DE CABECERAS
+[17:51:00] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:00] INFO:   📄 Extrayendo nombres de T09: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:01] INFO:      → 4 personas encontradas
+[17:51:01] INFO:   📄 Extrayendo nombres de T09: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:02] INFO:      → 4 personas encontradas
+[17:51:02] INFO:   📄 Extrayendo nombres de T09: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:51:02] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:02] INFO:   📄 Extrayendo nombres de T09: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:51:02] INFO:      → 3 personas encontradas
+[17:51:02] INFO:   📄 Extrayendo nombres de T09: CITACIÓN APERTURA DE CABECERAS
+[17:51:03] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:03] INFO:   📄 Extrayendo nombres de T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:03] INFO:      → 1 personas encontradas
+[17:51:03] INFO:   📄 Extrayendo nombres de T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:04] INFO:      → 1 personas encontradas
+[17:51:04] INFO:   📄 Extrayendo nombres de T10: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:51:04] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:04] INFO:   📄 Extrayendo nombres de T10: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:51:04] INFO:      → 3 personas encontradas
+[17:51:04] INFO:   📄 Extrayendo nombres de T10: CITACIÓN APERTURA DE CABECERAS
+[17:51:04] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:04] INFO:   📄 Extrayendo nombres de T11: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:05] INFO:      → 5 personas encontradas
+[17:51:05] INFO:   📄 Extrayendo nombres de T11: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:06] INFO:      → 5 personas encontradas
+[17:51:06] INFO:   📄 Extrayendo nombres de T11: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:51:06] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:06] INFO:   📄 Extrayendo nombres de T11: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:51:06] INFO:      → 3 personas encontradas
+[17:51:06] INFO:   📄 Extrayendo nombres de T11: CITACIÓN APERTURA DE CABECERAS
+[17:51:07] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:07] INFO:   📄 Extrayendo nombres de T12: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:07] INFO:      → 5 personas encontradas
+[17:51:07] INFO:   📄 Extrayendo nombres de T12: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:08] INFO:      → 4 personas encontradas
+[17:51:08] INFO:   📄 Extrayendo nombres de T12: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:51:08] INFO:      → 3 personas encontradas
+[17:51:08] INFO:   📄 Extrayendo nombres de T12: CITACIÓN APERTURA DE CABECERAS
+[17:51:08] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:08] INFO:   📄 Extrayendo nombres de T13: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:09] INFO:      → 4 personas encontradas
+[17:51:09] INFO:   📄 Extrayendo nombres de T13: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:09] INFO:      → 4 personas encontradas
+[17:51:09] INFO:   📄 Extrayendo nombres de T13: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:51:10] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:10] INFO:   📄 Extrayendo nombres de T13: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:51:10] INFO:      → 3 personas encontradas
+[17:51:10] INFO:   📄 Extrayendo nombres de T13: CITACIÓN APERTURA DE CABECERAS
+[17:51:10] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:10] INFO:   📄 Extrayendo nombres de T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:11] INFO:      → 1 personas encontradas
+[17:51:11] INFO:   📄 Extrayendo nombres de T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:11] INFO:      → 1 personas encontradas
+[17:51:11] INFO:   📄 Extrayendo nombres de T14: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:51:12] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:12] INFO:   📄 Extrayendo nombres de T14: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:51:12] INFO:      → 3 personas encontradas
+[17:51:12] INFO:   📄 Extrayendo nombres de T14: CITACIÓN APERTURA DE CABECERAS
+[17:51:12] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:12] INFO:   📄 Extrayendo nombres de T15: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:13] INFO:      → 5 personas encontradas
+[17:51:13] INFO:   📄 Extrayendo nombres de T15: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:14] INFO:      → 4 personas encontradas
+[17:51:14] INFO:   📄 Extrayendo nombres de T15: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[17:51:14] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:14] INFO:   📄 Extrayendo nombres de T15: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉR
+[17:51:15] INFO:      → 3 personas encontradas
+[17:51:15] INFO:   📄 Extrayendo nombres de T15: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:      → No se pudieron extraer nombres del PDF
+[17:51:15] INFO: 
+🆕 154 novedad(es):
+[17:51:15] INFO:   [CITACION] T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T01: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T01: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T01: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CITACION] T01: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T01: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T01: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T01: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T01: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T02: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T02: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T02: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T02: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T02: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T02: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CITACION] T02: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T02: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T02: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T02: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T02: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T03: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CALIFICACION] T03: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CITACION] T03: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T03: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T03: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T03: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T03: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T03: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T04: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T04: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T04: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T04: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CALIFICACION] T04: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T04: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T04: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T04: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T04: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T04: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T05: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T05: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CITACION] T05: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T05: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T05: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T05: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T05: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T05: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T05: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T05: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T05: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T06: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T06: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T06: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CALIFICACION] T06: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CITACION] T06: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T06: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T06: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T06: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T06: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T06: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T06: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T07: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T07: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CITACION] T07: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T07: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T07: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T07: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T07: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CALIFICACION] T07: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T07: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T08: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T08: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T08: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T08: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T08: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T08: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T08: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T08: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T08: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T08: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T09: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T09: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T09: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T09: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T09: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T09: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T09: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T09: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T09: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T09: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T10: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T10: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CALIFICACION] T10: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T10: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T10: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T10: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CALIFICACION] T10: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T10: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T10: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T11: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T11: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T11: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T11: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T11: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T11: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T11: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T11: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T11: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T11: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T12: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T12: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T12: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CALIFICACION] T12: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CITACION] T12: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T12: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T12: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T12: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T12: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T13: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T13: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T13: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CALIFICACION] T13: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CITACION] T13: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T13: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T13: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T13: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T13: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T13: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T14: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T14: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T14: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T14: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T14: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T14: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T14: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T14: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   [CITACION] T15: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CITACION] T15: CITACIÓN A DETERMINADOS ASPIRANTES
+[17:51:15] INFO:   [CALIFICACION] T15: Puntuaciones definitivas obtenidas prueba unica
+[17:51:15] INFO:   [CALIFICACION] T15: Puntuaciones definitivas obtenidas superado prueba unica
+[17:51:15] INFO:   [CITACION] T15: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEBA
+[17:51:15] INFO:   [CITACION] T15: CITACIÓN ENTREGA DE PROGRAMACIONES Y FICHA DE  MÉRITOS
+[17:51:15] INFO:   [CALIFICACION] T15: PLAZO DE PRESENTACIÓN DE RECLAMACIONES PRIMERA PRUEBA
+[17:51:15] INFO:   [CALIFICACION] T15: Puntuaciones provisionales obtenidas superado prueba unica
+[17:51:15] INFO:   [CALIFICACION] T15: Puntuaciones provisionales obtenidas prueba unica
+[17:51:15] INFO:   [CITACION] T15: CITACIÓN APERTURA DE CABECERAS
+[17:51:15] INFO:   🌐 Dashboard generado → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[17:51:15] INFO: ✅ Completado.
