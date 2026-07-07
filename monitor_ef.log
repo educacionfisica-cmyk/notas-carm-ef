@@ -390,3 +390,77 @@
 [18:10:37] INFO:   ✅ Sin novedades
 [18:10:37] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
 [18:10:37] INFO: ✅ Completado.
+[18:25:00] INFO: 🤖 GitHub Actions.
+[18:25:00] INFO: Publicaciones conocidas: 154
+[18:25:00] INFO: Email: configurado
+[18:25:00] INFO: 
+── Barrido #1 (18:25:00) ──
+[18:25:00] INFO: 🚀 Barrido EF CARM...
+[18:25:01] INFO:   Especialidades: ['EDUCACION FISICA']
+[18:25:02] INFO:   EDUCACION FISICA: 15 tribunal(es)
+[18:25:07] INFO:   Total encontradas: 154
+[18:25:07] INFO:   📄 Extrayendo T01: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:07] INFO:      → Sin nombres extraídos
+[18:25:07] INFO:   📄 Extrayendo T01: CITACIÓN APERTURA DE CABECERAS
+[18:25:07] INFO:      → Sin nombres extraídos
+[18:25:07] INFO:   📄 Extrayendo T02: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:08] INFO:      → Sin nombres extraídos
+[18:25:08] INFO:   📄 Extrayendo T02: CITACIÓN APERTURA DE CABECERAS
+[18:25:08] INFO:      → Sin nombres extraídos
+[18:25:08] INFO:   📄 Extrayendo T03: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:09] INFO:      → Sin nombres extraídos
+[18:25:09] INFO:   📄 Extrayendo T03: CITACIÓN APERTURA DE CABECERAS
+[18:25:09] INFO:      → Sin nombres extraídos
+[18:25:09] INFO:   📄 Extrayendo T04: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:09] INFO:      → Sin nombres extraídos
+[18:25:09] INFO:   📄 Extrayendo T04: CITACIÓN APERTURA DE CABECERAS
+[18:25:09] INFO:      → Sin nombres extraídos
+[18:25:09] INFO:   📄 Extrayendo T05: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:10] INFO:      → Sin nombres extraídos
+[18:25:10] INFO:   📄 Extrayendo T05: CITACIÓN APERTURA DE CABECERAS
+[18:25:10] INFO:      → Sin nombres extraídos
+[18:25:10] INFO:   📄 Extrayendo T06: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:10] INFO:      → Sin nombres extraídos
+[18:25:10] INFO:   📄 Extrayendo T06: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:10] INFO:      → Sin nombres extraídos
+[18:25:10] INFO:   📄 Extrayendo T06: CITACIÓN APERTURA DE CABECERAS
+[18:25:11] INFO:      → Sin nombres extraídos
+[18:25:11] INFO:   📄 Extrayendo T07: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:11] INFO:      → Sin nombres extraídos
+[18:25:11] INFO:   📄 Extrayendo T07: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:11] INFO:      → Sin nombres extraídos
+[18:25:11] INFO:   📄 Extrayendo T07: CITACIÓN APERTURA DE CABECERAS
+[18:25:12] INFO:      → Sin nombres extraídos
+[18:25:12] INFO:   📄 Extrayendo T08: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:12] INFO:      → Sin nombres extraídos
+[18:25:12] INFO:   📄 Extrayendo T08: CITACIÓN APERTURA DE CABECERAS
+[18:25:12] INFO:      → Sin nombres extraídos
+[18:25:12] INFO:   📄 Extrayendo T09: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:13] INFO:      → Sin nombres extraídos
+[18:25:13] INFO:   📄 Extrayendo T09: CITACIÓN APERTURA DE CABECERAS
+[18:25:13] INFO:      → Sin nombres extraídos
+[18:25:13] INFO:   📄 Extrayendo T10: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:13] INFO:      → Sin nombres extraídos
+[18:25:13] INFO:   📄 Extrayendo T10: CITACIÓN APERTURA DE CABECERAS
+[18:25:13] INFO:      → Sin nombres extraídos
+[18:25:13] INFO:   📄 Extrayendo T11: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:14] INFO:      → Sin nombres extraídos
+[18:25:14] INFO:   📄 Extrayendo T11: CITACIÓN APERTURA DE CABECERAS
+[18:25:14] INFO:      → Sin nombres extraídos
+[18:25:14] INFO:   📄 Extrayendo T12: CITACIÓN APERTURA DE CABECERAS
+[18:25:15] INFO:      → Sin nombres extraídos
+[18:25:15] INFO:   📄 Extrayendo T13: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:15] INFO:      → Sin nombres extraídos
+[18:25:15] INFO:   📄 Extrayendo T13: CITACIÓN APERTURA DE CABECERAS
+[18:25:15] INFO:      → Sin nombres extraídos
+[18:25:15] INFO:   📄 Extrayendo T14: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:15] INFO:      → Sin nombres extraídos
+[18:25:15] INFO:   📄 Extrayendo T14: CITACIÓN APERTURA DE CABECERAS
+[18:25:16] INFO:      → Sin nombres extraídos
+[18:25:16] INFO:   📄 Extrayendo T15: CITACION ENTREGA RESOLUCIÓN MOTIVADA PRIMERA PRUEB
+[18:25:16] INFO:      → Sin nombres extraídos
+[18:25:16] INFO:   📄 Extrayendo T15: CITACIÓN APERTURA DE CABECERAS
+[18:25:16] INFO:      → Sin nombres extraídos
+[18:25:16] INFO:   ✅ Sin novedades
+[18:25:16] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[18:25:16] INFO: ✅ Completado.
