@@ -1,0 +1,68 @@
+name: Monitor EF CARM 2026
+
+on:
+  # Cada 15 min de lunes a viernes, de 14:00 a 00:00 hora España (UTC+2 verano)
+  # GitHub usa UTC → 14h-00h España = 12h-22h UTC (la medianoche queda cubierta por la hora 22 UTC)
+  schedule:
+    - cron: '*/15 12-22 * * 1-5'
+
+  # Permite lanzarlo manualmente desde la pestaña Actions de GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write   # Para hacer commit y push de los PDFs y el estado
+  pages: write      # Para desplegar GitHub Pages
+  id-token: write   # Requerido por el deployer de Pages
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Descargar el código del repositorio
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Necesario para push correcto
+
+      # 2. Configurar Python
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. Instalar dependencias
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      # 4. Ejecutar el monitor (un solo barrido)
+      - name: Ejecutar monitor
+        env:
+          GMAIL_USUARIO:        ${{ secrets.GMAIL_USUARIO }}
+          GMAIL_CONTRASENA_APP: ${{ secrets.GMAIL_CONTRASENA_APP }}
+          EMAIL_DESTINO:        ${{ secrets.EMAIL_DESTINO }}
+        run: python monitor_ef.py --once
+
+      # 5. Hacer commit de los cambios (PDFs nuevos, state_ef.json, docs/index.html)
+      - name: Guardar cambios en el repositorio
+        run: |
+          git config user.name  "Monitor EF Bot"
+          git config user.email "monitor-ef@github-actions"
+          git add citaciones/ calificaciones/ docs/ state_ef.json monitor_ef.log || true
+          # Solo hacer commit si hay cambios reales
+          git diff --staged --quiet || git commit -m "🤖 Monitor $(date -u '+%d/%m/%Y %H:%M') UTC"
+          git push
+
+      # 6. Desplegar docs/ como GitHub Pages
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Subir artefacto de Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+      - name: Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
