@@ -117,6 +117,11 @@ def classify_doc(text):
             return "calificacion"
     return "calificacion"
 
+def es_citacion_aspirantes(text):
+    """Solo las citaciones a aspirantes determinados contienen listas de nombres."""
+    t = normalizar(text)
+    return "ASPIRANTE" in t or "DETERMINAD" in t
+
 def fix_url(href):
     if href.startswith("//"): return "https:" + href
     if href.startswith("/"): return "https://servicios.educarm.es" + href
@@ -479,8 +484,8 @@ def process(found, state, config):
 
         existing = known.get(key, {})
 
-        # Extraer datos del PDF de citaciones (solo si no se ha hecho ya con éxito)
-        if pub["tipo"] == "citacion" and not existing.get("personas"):
+        # Extraer nombres solo de "citación a determinados aspirantes"
+        if pub["tipo"] == "citacion" and es_citacion_aspirantes(pub["text"]) and not existing.get("personas"):
             log(f"  📄 Extrayendo {pub['tribunal']}: {pub['text'][:50]}")
             datos = extraer_datos_pdf(pub["url"])
             pub["personas"]       = datos["personas"]
@@ -526,15 +531,21 @@ def generate_dashboard(known):
     por_dia_trib = defaultdict(lambda: defaultdict(lambda: {"docs": [], "personas": []}))
     for p in pubs:
         if p["tipo"] == "citacion":
-            fecha = p.get("fecha_citacion") or p.get("timestamp","")[:10]
+            # Usar siempre la fecha del acto extraída del PDF;
+            # si no hay (ej. apertura de cabeceras sin fecha), agrupar aparte
+            fecha = p.get("fecha_citacion") or "0000-sin-fecha"
             trib  = p["tribunal"]
             por_dia_trib[fecha][trib]["docs"].append(p)
             por_dia_trib[fecha][trib]["personas"].extend(p.get("personas", []))
 
     bloques_dias = ""
     for fecha in sorted(por_dia_trib.keys()):
-        fecha_fmt  = fmt_fecha(fecha)
-        dia_nombre = _nombre_dia(fecha)
+        if fecha == "0000-sin-fecha":
+            fecha_fmt  = "Fecha pendiente"
+            dia_nombre = ""
+        else:
+            fecha_fmt  = fmt_fecha(fecha)
+            dia_nombre = _nombre_dia(fecha)
         por_trib   = por_dia_trib[fecha]
         total_dia  = sum(len(v["personas"]) for v in por_trib.values())
 
@@ -544,10 +555,10 @@ def generate_dashboard(known):
             docs     = entry["docs"]
             personas = entry["personas"]
 
-            # Enlace(s) al documento
+            # Enlace(s) al documento — más reciente primero
             doc_links = "".join(
                 f'<a href="{d["url"]}" target="_blank" class="doc-link">📄 {d["text"][:55]}</a>'
-                for d in docs
+                for d in sorted(docs, key=lambda x: x.get("timestamp",""), reverse=True)
             )
 
             # Tabla de personas
