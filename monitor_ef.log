@@ -1530,3 +1530,57 @@
 [17:05:31] INFO:   📧 Email enviado → educacionfisica@aprendeoposiciones.com
 [17:05:31] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
 [17:05:31] INFO: ✅ Completado.
+[18:07:01] INFO: 🤖 GitHub Actions.
+[18:07:01] INFO: Publicaciones conocidas: 212
+[18:07:01] INFO: Email: configurado
+[18:07:01] INFO: 
+── Barrido #1 (18:07:01) ──
+[18:07:01] INFO: 🚀 Barrido EF CARM...
+[18:07:03] INFO:   Especialidades: ['EDUCACION FISICA']
+[18:07:03] INFO:   EDUCACION FISICA: 15 tribunal(es)
+[18:07:11] INFO:   Total encontradas: 216
+[18:07:11] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:12] INFO:      → Sin nombres extraídos
+[18:07:12] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:12] INFO:      → Sin nombres extraídos
+[18:07:12] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:13] INFO:      → Sin nombres extraídos
+[18:07:13] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:13] INFO:      → Sin nombres extraídos
+[18:07:13] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:13] INFO:      → Sin nombres extraídos
+[18:07:13] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:14] INFO:      → Sin nombres extraídos
+[18:07:14] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:14] INFO:      → Sin nombres extraídos
+[18:07:14] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:15] INFO:      → Sin nombres extraídos
+[18:07:15] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:15] INFO:      → Sin nombres extraídos
+[18:07:15] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:15] INFO:      → Sin nombres extraídos
+[18:07:15] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:16] INFO:      → Sin nombres extraídos
+[18:07:16] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:16] INFO:      → Sin nombres extraídos
+[18:07:16] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:17] INFO:      → Sin nombres extraídos
+[18:07:17] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:17] INFO:      → Sin nombres extraídos
+[18:07:17] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:17] INFO:      → Sin nombres extraídos
+[18:07:17] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:18] INFO:      → Sin nombres extraídos
+[18:07:18] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:18] INFO:      → Sin nombres extraídos
+[18:07:18] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[18:07:19] INFO:      → Sin nombres extraídos
+[18:07:19] INFO: 
+🆕 4 novedad(es):
+[18:07:19] INFO:   [CALIFICACION] T10: Calificaciones segunda prueba
+[18:07:19] INFO:   [CITACION] T15: CITACIÓN PLAZO PRESENTACIÓN RECLAMACIONES FASE DE OPOSICIÓN
+[18:07:19] INFO:   [CALIFICACION] T15: Aprobados en la Fase de Oposición
+[18:07:19] INFO:   [CALIFICACION] T15: Calificaciones segunda prueba
+[18:07:21] INFO:   📧 Email enviado → educacionfisica@aprendeoposiciones.com
+[18:07:21] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[18:07:21] INFO: ✅ Completado.
