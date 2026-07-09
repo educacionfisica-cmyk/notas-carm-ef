@@ -1186,3 +1186,75 @@
 [23:46:48] INFO:   ✅ Sin novedades
 [23:46:48] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
 [23:46:48] INFO: ✅ Completado.
+[14:45:14] INFO: 🤖 GitHub Actions.
+[14:45:14] INFO: Publicaciones conocidas: 184
+[14:45:14] INFO: Email: configurado
+[14:45:14] INFO: 
+── Barrido #1 (14:45:14) ──
+[14:45:14] INFO: 🚀 Barrido EF CARM...
+[14:45:16] INFO:   Especialidades: ['EDUCACION FISICA']
+[14:45:16] INFO:   EDUCACION FISICA: 15 tribunal(es)
+[14:45:23] INFO:   Total encontradas: 194
+[14:45:23] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:24] INFO:      → Sin nombres extraídos
+[14:45:24] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:24] INFO:      → Sin nombres extraídos
+[14:45:24] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:25] INFO:      → Sin nombres extraídos
+[14:45:25] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:25] INFO:      → Sin nombres extraídos
+[14:45:25] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:25] INFO:      → Sin nombres extraídos
+[14:45:25] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:25] INFO:      → Sin nombres extraídos
+[14:45:25] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:26] INFO:      → Sin nombres extraídos
+[14:45:26] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:26] INFO:      → Sin nombres extraídos
+[14:45:26] INFO:   📄 Extrayendo T05: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:27] INFO:      → 4 personas · fecha None
+[14:45:27] INFO:   📄 Extrayendo T06: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:27] INFO:      → 4 personas · fecha None
+[14:45:27] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:27] INFO:      → Sin nombres extraídos
+[14:45:27] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:28] INFO:      → Sin nombres extraídos
+[14:45:28] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:28] INFO:      → Sin nombres extraídos
+[14:45:28] INFO:   📄 Extrayendo T08: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:29] INFO:      → 4 personas · fecha None
+[14:45:29] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:29] INFO:      → Sin nombres extraídos
+[14:45:29] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:30] INFO:      → Sin nombres extraídos
+[14:45:30] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:30] INFO:      → Sin nombres extraídos
+[14:45:30] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:30] INFO:      → Sin nombres extraídos
+[14:45:30] INFO:   📄 Extrayendo T11: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:30] INFO:      → 4 personas · fecha None
+[14:45:30] INFO:   📄 Extrayendo T12: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:31] INFO:      → 4 personas · fecha None
+[14:45:31] INFO:   📄 Extrayendo T13: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:31] INFO:      → 4 personas · fecha None
+[14:45:31] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:      → Sin nombres extraídos
+[14:45:32] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:      → Sin nombres extraídos
+[14:45:32] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:      → Sin nombres extraídos
+[14:45:32] INFO: 
+🆕 10 novedad(es):
+[14:45:32] INFO:   [CITACION] T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:   [CITACION] T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:   [CITACION] T05: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:   [CITACION] T06: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:   [CITACION] T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:   [CITACION] T08: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:   [CITACION] T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:   [CITACION] T11: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:   [CITACION] T12: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:32] INFO:   [CITACION] T13: CITACIÓN A DETERMINADOS ASPIRANTES
+[14:45:34] INFO:   📧 Email enviado → educacionfisica@aprendeoposiciones.com
+[14:45:34] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[14:45:34] INFO: ✅ Completado.
