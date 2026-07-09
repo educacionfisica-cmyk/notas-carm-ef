@@ -3,7 +3,7 @@ name: Monitor EF CARM 2026
 on:
   # Cada 15 min, L-V, 14:00-00:00 hora España (= 12:00-22:00 UTC verano)
   schedule:
-    - cron: '*/15 12-22 * * 1-5'
+    - cron: '*/3 12-22 * * 1-5'
   workflow_dispatch:
 
 permissions:
