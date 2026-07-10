@@ -1776,3 +1776,71 @@
 [23:58:06] INFO:   ✅ Sin novedades
 [23:58:06] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
 [23:58:06] INFO: ✅ Completado.
+[11:30:58] INFO: 🤖 GitHub Actions.
+[11:30:58] INFO: Publicaciones conocidas: 216
+[11:30:58] INFO: Email: configurado
+[11:30:58] INFO: 
+── Barrido #1 (11:30:58) ──
+[11:30:58] INFO: 🚀 Barrido EF CARM...
+[11:30:59] INFO:   Especialidades: ['EDUCACION FISICA']
+[11:30:59] INFO:   EDUCACION FISICA: 15 tribunal(es)
+[11:31:06] INFO:   Total encontradas: 222
+[11:31:06] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:06] INFO:      → Sin nombres extraídos
+[11:31:06] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:07] INFO:      → Sin nombres extraídos
+[11:31:07] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:07] INFO:      → Sin nombres extraídos
+[11:31:07] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:07] INFO:      → Sin nombres extraídos
+[11:31:07] INFO:   📄 Extrayendo T02: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:07] INFO:      → 4 personas · fecha None
+[11:31:07] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:08] INFO:      → Sin nombres extraídos
+[11:31:08] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:08] INFO:      → Sin nombres extraídos
+[11:31:08] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:08] INFO:      → Sin nombres extraídos
+[11:31:08] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:09] INFO:      → Sin nombres extraídos
+[11:31:09] INFO:   📄 Extrayendo T05: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:09] INFO:      → 5 personas · fecha None
+[11:31:09] INFO:   📄 Extrayendo T06: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:09] INFO:      → 5 personas · fecha None
+[11:31:09] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:10] INFO:      → Sin nombres extraídos
+[11:31:10] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:10] INFO:      → Sin nombres extraídos
+[11:31:10] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:10] INFO:      → Sin nombres extraídos
+[11:31:10] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:10] INFO:      → Sin nombres extraídos
+[11:31:10] INFO:   📄 Extrayendo T08: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:11] INFO:      → 5 personas · fecha None
+[11:31:11] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:11] INFO:      → Sin nombres extraídos
+[11:31:11] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:11] INFO:      → Sin nombres extraídos
+[11:31:11] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:12] INFO:      → Sin nombres extraídos
+[11:31:12] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:12] INFO:      → Sin nombres extraídos
+[11:31:12] INFO:   📄 Extrayendo T12: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:12] INFO:      → 4 personas · fecha None
+[11:31:12] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:13] INFO:      → Sin nombres extraídos
+[11:31:13] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:13] INFO:      → Sin nombres extraídos
+[11:31:13] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:13] INFO:      → Sin nombres extraídos
+[11:31:13] INFO: 
+🆕 6 novedad(es):
+[11:31:13] INFO:   [CITACION] T02: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:13] INFO:   [CITACION] T05: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:13] INFO:   [CITACION] T06: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:13] INFO:   [CITACION] T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:13] INFO:   [CITACION] T08: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:13] INFO:   [CITACION] T12: CITACIÓN A DETERMINADOS ASPIRANTES
+[11:31:15] INFO:   📧 Email enviado → educacionfisica@aprendeoposiciones.com
+[11:31:15] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[11:31:15] INFO: ✅ Completado.
