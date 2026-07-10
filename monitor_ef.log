@@ -2135,3 +2135,74 @@
 [14:12:08] INFO:   ✅ Sin novedades
 [14:12:08] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
 [14:12:08] INFO: ✅ Completado.
+[15:14:03] INFO: 🤖 GitHub Actions.
+[15:14:03] INFO: Publicaciones conocidas: 229
+[15:14:03] INFO: Email: configurado
+[15:14:03] INFO: 
+── Barrido #1 (15:14:03) ──
+[15:14:03] INFO: 🚀 Barrido EF CARM...
+[15:14:05] INFO:   Especialidades: ['EDUCACION FISICA']
+[15:14:05] INFO:   EDUCACION FISICA: 15 tribunal(es)
+[15:14:13] INFO:   Total encontradas: 238
+[15:14:13] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:14] INFO:      → Sin nombres extraídos
+[15:14:14] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:14] INFO:      → Sin nombres extraídos
+[15:14:14] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:14] INFO:      → Sin nombres extraídos
+[15:14:14] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:15] INFO:      → Sin nombres extraídos
+[15:14:15] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:15] INFO:      → Sin nombres extraídos
+[15:14:15] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:15] INFO:      → Sin nombres extraídos
+[15:14:15] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:16] INFO:      → Sin nombres extraídos
+[15:14:16] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:16] INFO:      → Sin nombres extraídos
+[15:14:16] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:17] INFO:      → Sin nombres extraídos
+[15:14:17] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:17] INFO:      → Sin nombres extraídos
+[15:14:17] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:17] INFO:      → Sin nombres extraídos
+[15:14:17] INFO:   📄 Extrayendo T04: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:18] INFO:      → 2 personas · fecha None
+[15:14:18] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:18] INFO:      → Sin nombres extraídos
+[15:14:18] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:18] INFO:      → Sin nombres extraídos
+[15:14:18] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:19] INFO:      → Sin nombres extraídos
+[15:14:19] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:19] INFO:      → Sin nombres extraídos
+[15:14:19] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:20] INFO:      → Sin nombres extraídos
+[15:14:20] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:20] INFO:      → Sin nombres extraídos
+[15:14:20] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:20] INFO:      → Sin nombres extraídos
+[15:14:20] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:21] INFO:      → Sin nombres extraídos
+[15:14:21] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:21] INFO:      → Sin nombres extraídos
+[15:14:21] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:21] INFO:      → Sin nombres extraídos
+[15:14:21] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:22] INFO:      → Sin nombres extraídos
+[15:14:22] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:23] INFO:      → Sin nombres extraídos
+[15:14:23] INFO: 
+🆕 9 novedad(es):
+[15:14:23] INFO:   [CALIFICACION] T01: Calificaciones segunda prueba
+[15:14:23] INFO:   [CITACION] T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:23] INFO:   [CALIFICACION] T02: Calificaciones segunda prueba
+[15:14:23] INFO:   [CALIFICACION] T03: Calificaciones segunda prueba
+[15:14:23] INFO:   [CITACION] T04: CITACIÓN A DETERMINADOS ASPIRANTES
+[15:14:23] INFO:   [CALIFICACION] T05: Calificaciones segunda prueba
+[15:14:23] INFO:   [CALIFICACION] T06: Calificaciones segunda prueba
+[15:14:23] INFO:   [CALIFICACION] T08: Calificaciones segunda prueba
+[15:14:23] INFO:   [CALIFICACION] T11: Calificaciones segunda prueba
+[15:14:24] INFO:   📧 Email enviado → educacionfisica@aprendeoposiciones.com
+[15:14:24] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[15:14:24] INFO: ✅ Completado.
