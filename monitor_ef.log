@@ -4223,3 +4223,76 @@
 [23:10:44] INFO:   ✅ Sin novedades
 [23:10:44] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
 [23:10:44] INFO: ✅ Completado.
+[12:14:15] INFO: 🤖 GitHub Actions.
+[12:14:15] INFO: Publicaciones conocidas: 307
+[12:14:15] INFO: Email: configurado
+[12:14:15] INFO: 
+── Barrido #1 (12:14:15) ──
+[12:14:15] INFO: 🚀 Barrido EF CARM...
+[12:14:16] INFO:   Especialidades: ['EDUCACION FISICA']
+[12:14:17] INFO:   EDUCACION FISICA: 15 tribunal(es)
+[12:14:30] INFO:   Total encontradas: 309
+[12:14:30] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:30] INFO:      → Sin nombres extraídos
+[12:14:30] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:30] INFO:      → Sin nombres extraídos
+[12:14:30] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:31] INFO:      → Sin nombres extraídos
+[12:14:31] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:31] INFO:      → Sin nombres extraídos
+[12:14:31] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:32] INFO:      → Sin nombres extraídos
+[12:14:32] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:32] INFO:      → Sin nombres extraídos
+[12:14:32] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:32] INFO:      → Sin nombres extraídos
+[12:14:32] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:33] INFO:      → Sin nombres extraídos
+[12:14:33] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:34] INFO:      → Sin nombres extraídos
+[12:14:34] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:34] INFO:      → Sin nombres extraídos
+[12:14:34] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:34] INFO:      → Sin nombres extraídos
+[12:14:34] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:35] INFO:      → Sin nombres extraídos
+[12:14:35] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:36] INFO:      → Sin nombres extraídos
+[12:14:36] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:36] INFO:      → Sin nombres extraídos
+[12:14:36] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:36] INFO:      → Sin nombres extraídos
+[12:14:36] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:36] INFO:      → Sin nombres extraídos
+[12:14:36] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:37] INFO:      → Sin nombres extraídos
+[12:14:37] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:38] INFO:      → Sin nombres extraídos
+[12:14:38] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:38] INFO:      → Sin nombres extraídos
+[12:14:38] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:38] INFO:      → Sin nombres extraídos
+[12:14:38] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:39] INFO:      → Sin nombres extraídos
+[12:14:39] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:39] INFO:      → Sin nombres extraídos
+[12:14:39] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:40] INFO:      → Sin nombres extraídos
+[12:14:40] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:40] INFO:      → Sin nombres extraídos
+[12:14:40] INFO:   📄 Extrayendo T10: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:41] INFO:      → Sin nombres extraídos
+[12:14:41] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:41] INFO:      → Sin nombres extraídos
+[12:14:41] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:41] INFO:      → Sin nombres extraídos
+[12:14:41] INFO:   📄 Extrayendo T14: CITACIÓN A DETERMINADOS ASPIRANTES
+[12:14:42] INFO:      → Sin nombres extraídos
+[12:14:42] INFO: 
+🆕 3 novedad(es):
+[12:14:42] INFO:   [CALIFICACION] T02: RESOLUCIÓN PROVISIONAL DE LA FASE DE CONCURSO Y PLAZO ALEGACIONES
+[12:14:42] INFO:   [CALIFICACION] T02: Listado baremación - Acceso 1
+[12:14:42] INFO:   [CALIFICACION] T12: Puntuaciones obtenidas fase oposición
+[12:14:44] INFO:   📧 Email enviado → educacionfisica@aprendeoposiciones.com
+[12:14:44] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[12:14:44] INFO: ✅ Completado.
