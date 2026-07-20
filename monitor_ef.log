@@ -6773,3 +6773,69 @@
 [17:11:16] INFO:   ✅ Sin novedades
 [17:11:16] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
 [17:11:16] INFO: ✅ Completado.
+[19:06:04] INFO: 🤖 GitHub Actions.
+[19:06:04] INFO: Publicaciones conocidas: 375
+[19:06:04] INFO: Email: configurado
+[19:06:04] INFO: 
+── Barrido #1 (19:06:04) ──
+[19:06:04] INFO: 🚀 Barrido EF CARM...
+[19:06:07] INFO:   Especialidades: ['EDUCACION FISICA']
+[19:06:07] INFO:   EDUCACION FISICA: 15 tribunal(es)
+[19:06:14] INFO:   Total encontradas: 207
+[19:06:14] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T01: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T03: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   📄 Extrayendo T07: CITACIÓN A DETERMINADOS ASPIRANTES
+[19:06:15] WARN:   ⚠️  Error leyendo PDF: No /Root object! - Is this really a PDF?
+[19:06:15] INFO:      → Sin nombres extraídos
+[19:06:15] INFO:   ✅ Sin novedades
+[19:06:15] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[19:06:15] INFO: ✅ Completado.
