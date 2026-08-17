@@ -13609,3 +13609,14 @@
 [22:11:13] INFO:   ✅ Sin novedades
 [22:11:13] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
 [22:11:13] INFO: ✅ Completado.
+[22:39:50] INFO: 🤖 GitHub Actions.
+[22:39:50] INFO: Publicaciones conocidas: 381
+[22:39:50] INFO: Email: configurado
+[22:39:50] INFO: 
+── Barrido #1 (22:39:50) ──
+[22:39:50] INFO: 🚀 Barrido EF CARM...
+[22:39:51] ERROR: ❌ Error en barrido: 403 Client Error: Forbidden for url: https://servicios.educarm.es/admin/index2.php?aplicacion=PUBLICACIONES_TRIBUNALES&module=publicacionesTribunales&action=ajaxOpcionesEspecialidad
+[22:39:51] INFO:   Total encontradas: 0
+[22:39:51] INFO:   ✅ Sin novedades
+[22:39:51] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[22:39:51] INFO: ✅ Completado.
