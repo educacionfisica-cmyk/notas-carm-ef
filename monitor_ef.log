@@ -13477,3 +13477,14 @@
 [16:37:46] INFO:   ✅ Sin novedades
 [16:37:46] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
 [16:37:46] INFO: ✅ Completado.
+[17:00:08] INFO: 🤖 GitHub Actions.
+[17:00:08] INFO: Publicaciones conocidas: 381
+[17:00:08] INFO: Email: configurado
+[17:00:08] INFO: 
+── Barrido #1 (17:00:08) ──
+[17:00:08] INFO: 🚀 Barrido EF CARM...
+[17:00:09] ERROR: ❌ Error en barrido: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[17:00:09] INFO:   Total encontradas: 0
+[17:00:09] INFO:   ✅ Sin novedades
+[17:00:09] INFO:   🌐 Dashboard → /home/runner/work/notas-carm-ef/notas-carm-ef/docs/index.html
+[17:00:09] INFO: ✅ Completado.
